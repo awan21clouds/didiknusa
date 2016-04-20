@@ -54,11 +54,13 @@
       <file leaf-file-name="scholarship-detail.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/scholarship-detail.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08238637">
-              <caret line="161" column="44" selection-start-line="161" selection-start-column="44" selection-end-line="161" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.32386363">
+              <caret line="161" column="103" selection-start-line="161" selection-start-column="103" selection-end-line="161" selection-end-column="103" />
               <folding>
-                <element signature="e#12672#12729#0#HTML" expanded="true" />
-                <element signature="e#13384#13441#0#HTML" expanded="true" />
+                <element signature="e#10996#11053#0#HTML" expanded="true" />
+                <element signature="e#12730#12787#0#HTML" expanded="true" />
+                <element signature="e#13442#13499#0#HTML" expanded="true" />
+                <element signature="e#13814#13833#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -938,12 +940,12 @@
       <updated>1461120290326</updated>
       <workItem from="1461120591762" duration="579000" />
       <workItem from="1461145328727" duration="4053000" />
-      <workItem from="1461157739563" duration="3931000" />
+      <workItem from="1461157739563" duration="4056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8563000" />
+    <option name="totallyTimeSpent" value="8688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1228,11 +1230,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/scholarship-detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08238637">
-          <caret line="161" column="44" selection-start-line="161" selection-start-column="44" selection-end-line="161" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.32386363">
+          <caret line="161" column="103" selection-start-line="161" selection-start-column="103" selection-end-line="161" selection-end-column="103" />
           <folding>
-            <element signature="e#12672#12729#0#HTML" expanded="true" />
-            <element signature="e#13384#13441#0#HTML" expanded="true" />
+            <element signature="e#10996#11053#0#HTML" expanded="true" />
+            <element signature="e#12730#12787#0#HTML" expanded="true" />
+            <element signature="e#13442#13499#0#HTML" expanded="true" />
+            <element signature="e#13814#13833#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

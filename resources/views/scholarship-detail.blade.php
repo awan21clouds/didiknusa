@@ -159,7 +159,7 @@
                                 <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
                             </div><!-- /.box-tools -->
                         </div><!-- /.box-header -->
-                        <div class="box-body">
+                        <div class="box-body" style="display: block; border-bottom: 1px solid #f3f3f3;">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <!-- Progress bars -->
