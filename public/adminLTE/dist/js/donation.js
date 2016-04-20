@@ -145,25 +145,11 @@ function insertConfirmation(){
             formData.set('payment_date', toMySQLDate(formData.get('payment_date')));
             ajaxPro('POST', getBaseURL()+'confirmation', formData, 'html', false, false, false, false, success, error, null);
             function success(output) {
-                $.ajax({
-                    url: getBaseURL()+'transaction/confirm/'+formData.get('transaction_id'),
-                    type: 'PUT',
-                    data: {
-                        _token: formData.get("_token"),
-                        transaction_id:formData.get('transaction_id'),
-                        transaction_status_id: 1
-                    },
-                    dataType: 'HTML',
-                    success: null,
-                    error: null
-                });
-
-
+                confirmedTransaction(formData);
                 notify('info', 'Konfirmasi Berhasil!', 'Silahkan tunggu proses verifikasi dari admin', 'glyphicon glyphicon-warning-sign');
                 $("#form-confirmation")[0].reset();
                 $("#form-confirmation").bootstrapValidator('resetForm', true);
                 $('#tab-data-trigger').click();
-                dt_donation.ajax.reload();
             }
             function error(jqXHR, textStatus, errorThrown) {
                 alert('An error occurred... Look at the console (F12 or Ctrl+Shift+I, Console tab) for more information!');
@@ -178,6 +164,30 @@ function insertConfirmation(){
             return false;
         });
     });
+}
+
+function confirmedTransaction(formData){
+    $.ajax({
+        url: getBaseURL()+'transaction/confirm/'+formData.get('transaction_id'),
+        type: 'PUT',
+        data: {
+            _token: formData.get("_token"),
+            transaction_id:formData.get('transaction_id'),
+            transaction_status_id: 1
+        },
+        dataType: 'HTML',
+        success: success,
+        error: error
+    });
+
+    function success(output) {
+        dt_donation.ajax.reload();
+        notify('info', 'Konfirmasi Berhasil!', 'Silahkan tunggu proses verifikasi dari admin', 'glyphicon glyphicon-warning-sign');
+    }
+    function error(jqXHR, textStatus, errorThrown) {
+        confirmedTransaction(formData);
+    }
+
 }
 
 function paymentDate(){
