@@ -92,7 +92,7 @@ $(document).ready(function(){
 
     setActiveMenu();
     initCloneya();
-    selectLocate('select[name=location_id]', 'locate');
+    selectLocate('#form-scholarship select[name=location_id]', 'locate/getAllRowsForScholarship');
     getHeaderProfil();
     initDeadline();
     insertScholarship();
