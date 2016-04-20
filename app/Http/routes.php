@@ -57,6 +57,7 @@ Route::get('/member/error', 'MemberController@error');
 Route::get('/profil/{id}', 'MemberController@profil');
 
 Route::get('/scholarship/detail/{id}', 'ScholarshipController@detail');
+Route::get('/scholarship-detail/{id}', 'ScholarshipController@detail');
 Route::get('/scholarship/getThree', 'ScholarshipController@getThree');
 Route::get('/scholarship/homeScholarship', 'ScholarshipController@homeScholarship');
 Route::get('/scholarship/allScholarship', 'ScholarshipController@allScholarship');
