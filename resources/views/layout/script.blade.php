@@ -1,0 +1,50 @@
+<script src="../adminLTE/plugins/typeahead/bootstrap-typeahead.js"></script>
+<script src="../adminLTE/plugins/jquery-cloneya-stable/dist/jquery-cloneya.js"></script>
+<script src="../adminLTE/plugins/jQuery/jquery-migrate-1.2.1.min.js"></script>
+<script src="../adminLTE/plugins/WOW/dist/wow.min.js"></script>
+<script src="../adminLTE/plugins/notify/bootstrap-notify.min.js"></script>
+<script src="../adminLTE/plugins/daterangepicker/moment.min.js"></script>
+<script src="../adminLTE/plugins/daterangepicker/moment.min.js"></script>
+<script src="../adminLTE/plugins/livestamp/livestamp.js"></script>
+<script src="../adminLTE/plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="../adminLTE/plugins/Readmore/readmore.min.js"></script>
+<script src="../adminLTE/plugins/autoNumeric/autoNumeric.js"></script>
+<script src="../adminLTE/plugins/TimeCircles/inc/TimeCircles.js"></script>
+<script src="../adminLTE/dist/js/customajax.js"></script>
+<script src="../adminLTE/dist/js/customapp.js"></script>
+<script>
+    $.widget.bridge('uibutton', $.ui.button);
+</script>
+
+<script src="../adminLTE/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="../adminLTE/plugins/morris/morris.min.js"></script>
+<script src="../adminLTE/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="../adminLTE/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="../adminLTE/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="../adminLTE/plugins/gmaps/gmaps.min.js"></script>
+<script src="../adminLTE/plugins/knob/jquery.knob.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+<script src="../adminLTE/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="../adminLTE/plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="../adminLTE/plugins/datatables-2/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="../adminLTE/plugins/datatables-2/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script src="../adminLTE/plugins/datatables-2/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+<script src="../adminLTE/plugins/datatables-2/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+<script src="../adminLTE/plugins/datatables-2/datatables.net-buttons/js/buttons.flash.min.js"></script>
+<script src="../adminLTE/plugins/datatables-2/datatables.net-buttons/js/buttons.colVis.min.js"></script>
+<script src="../adminLTE/plugins/datatables-2/datatables.net-buttons/js/buttons.html5.min.js"></script>
+<script src="../adminLTE/plugins/datatables-2/datatables.net-buttons/js/buttons.print.min.js"></script>
+<script src="../adminLTE/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="../adminLTE/plugins/fastclick/fastclick.min.js"></script>
+<script src="../adminLTE/plugins/slick/slick.min.js"></script>
+<script src="../adminLTE/plugins/animatescroll/animatescroll.min.js"></script>
+<script src="../adminLTE/plugins/animsition/dist/js/animsition.js"></script>
+<script src="../adminLTE/plugins/simple-pagination/jquery.simplePagination.js"></script>
+<script src="../adminLTE/plugins/fileinput/js/fileinput.min.js"></script>
+<script src="../adminLTE/dist/js/app.min.js"></script>
+<script src="../adminLTE/dist/js/pages/dashboard.js"></script>
+<script src="../adminLTE/dist/js/demo.js"></script>
+<script src="../adminLTE/plugins/validator/dist/js/bootstrapValidator.min.js"></script>
+
