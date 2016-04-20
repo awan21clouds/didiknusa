@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="modal-header">
-                        <h4 class="modal-title">Detail Beasiswa</h4>
+                        <h4 class="modal-title">Detail Dana Yang Dibutuhkan</h4>
                     </div>
                     <div class="modal-body toclone">
                         <div class="form-group">
