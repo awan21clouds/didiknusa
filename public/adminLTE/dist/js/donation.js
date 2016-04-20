@@ -146,7 +146,6 @@ function insertConfirmation(){
             ajaxPro('POST', getBaseURL()+'confirmation', formData, 'html', false, false, false, false, success, error, null);
             function success(output) {
                 confirmedTransaction(formData);
-                notify('info', 'Konfirmasi Berhasil!', 'Silahkan tunggu proses verifikasi dari admin', 'glyphicon glyphicon-warning-sign');
                 $("#form-confirmation")[0].reset();
                 $("#form-confirmation").bootstrapValidator('resetForm', true);
                 $('#tab-data-trigger').click();
