@@ -217,7 +217,7 @@ class MemberController extends Controller
             print_r ("Failed");
         }else{
             if (Input::file('photo')->isValid()) {
-                $destinationPath = 'public/adminLTE/dist/img/'; // upload path
+                $destinationPath = 'adminLTE/dist/img/'; // upload path
                 $extension = Input::file('photo')->getClientOriginalExtension(); // getting image extension
                 $fileName = rand(11111,99999).'.'.$extension; // renameing image
                 Input::file('photo')->move($destinationPath, $fileName); // uploading file to given path

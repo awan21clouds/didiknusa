@@ -65,7 +65,7 @@ class ScholarshipController extends Controller
             print_r ("Failed");
         }else{
             if ($picture->isValid()) {
-                $destinationPath = 'public/adminLTE/dist/img/'; // upload path
+                $destinationPath = 'adminLTE/dist/img/'; // upload path
                 $extension = $picture->getClientOriginalExtension(); // getting image extension
                 $fileName = rand(11111,99999).'.'.$extension; // renameing image
                 $picture->move($destinationPath, $fileName); // uploading file to given path
