@@ -1,0 +1,4 @@
+=== didikbangsa Config Vars
+APP_KEY:              base64:Fn5yFnJjwIkn9TH+8Ou8gSQidxgkupwdjeQLFp+Ipk0=
+CLEARDB_DATABASE_URL: mysql://b3a7a5931d0dc7:0012370b@us-cdbr-iron-east-03.clear
+db.net/heroku_aa47af278032a99?reconnect=true
