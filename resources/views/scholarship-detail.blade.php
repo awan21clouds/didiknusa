@@ -11,9 +11,9 @@
                             <div class="box box-solid">
                                 <div class="box-body no-border">
                                     @if(isset($scholarship->picture))
-                                        <img class="img-thumbnail no-border" src="../{{$scholarship->picture}}" alt="Photo" style="margin: 0 auto;">
+                                        <img class="img-thumbnail no-border" src="../{{$scholarship->picture}}" alt="Photo" style="margin: 0 auto; width:auto;">
                                     @else
-                                        <img class="img-thumbnail no-border" src="http://placehold.it/1100x500/f3f3f3/ffffff&amp;text=Tidak+ada+gambar" alt="Photo" style="margin: 0 auto;">
+                                        <img class="img-thumbnail no-border" src="http://placehold.it/1100x500/f3f3f3/ffffff&amp;text=Tidak+ada+gambar" alt="Photo" style="margin: 0 auto; width:auto;">
                                     @endif
 
                                 </div><!-- /.box-body -->
