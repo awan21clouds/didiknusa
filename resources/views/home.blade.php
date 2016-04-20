@@ -45,7 +45,7 @@
                     </div><!-- /.box -->
                 </div>
             </div>
-            <div id="home-scholarship"></div>
+            {{--<div id="home-scholarship"></div>--}}
             {{--<h2 class="page-header text-center">Testimonial</h2>--}}
             {{--<div class="row wow animated rollIn" id="testimonials">--}}
                 {{--@for ($i = 0; $i < 10; $i++)--}}
