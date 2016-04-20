@@ -19,7 +19,7 @@ function loadContent(){
             $("#profil-content").load(getBaseURL()+'member/'+page, function(){
                 switch (page){
                     case 'my-profil' :
-                        selectLocate('#form-personal select[name=location_id]');
+                        selectLocate('#form-personal select[name=location_id]', 'locate');
                         getMyProfil();
                         updateMyProfil();
                         updateMyPassword();
@@ -56,7 +56,7 @@ function loadContent(){
         $("#profil-content").load( getBaseURL()+'member/'+page, function() {
             switch (page){
                 case 'my-profil' :
-                    selectLocate('#form-personal select[name=location_id]');
+                    selectLocate('#form-personal select[name=location_id]', 'locate');
                     getMyProfil();
                     updateMyProfil();
                     updateMyPassword();

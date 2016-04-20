@@ -92,7 +92,7 @@ $(document).ready(function(){
 
     setActiveMenu();
     initCloneya();
-    selectLocate('select[name=location_id]');
+    selectLocate('select[name=location_id]', 'locate');
     getHeaderProfil();
     initDeadline();
     insertScholarship();
@@ -155,8 +155,8 @@ function initReadmore(){
     });
 }
 
-function selectLocate(element){
-    ajaxPro('GET', getBaseURL()+'locate/getAllRowsForScholarship', null, 'json', false, false, false, false, success, null, null);
+function selectLocate(element, url){
+    ajaxPro('GET', getBaseURL()+url, null, 'json', false, false, false, false, success, null, null);
     function success(output) {
         var html = '';
         $(output.data).each(function(i, v){
