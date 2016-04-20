@@ -66,7 +66,7 @@
                                     <select name="bank_id" class="form-control"></select>
                                 </div>
                                 <div class="form-group">
-                                    <label>Tanggal Pembayaran</label>
+                                    <label>Tanggal Pengiriman</label>
                                     <input type="text" name="payment_date" class="form-control" placeholder="Ketik tanggal pembayaran" readonly/>
                                 </div>
                                 <div class="form-group">
@@ -89,7 +89,7 @@
                                 </div>
                             </div><!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="submit" class="btn btn-primary">Simpan</button>
+                                <button type="submit" class="btn btn-primary">Kirim Konfirmasi</button>
                                 <a href="#tab-data" data-toggle="tab" class="btn btn-default">Batal</a>
                             </div>
                         </form>
