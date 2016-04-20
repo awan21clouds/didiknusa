@@ -105,5 +105,8 @@ class LocateController extends Controller
 //        return "Hello World ".$id;
     }
 
-
+    public function getAllRowsForScholarship(){
+        $location = new Location();
+        return response()->json(['data' => $location->getAllRowsForScholarship()]);
+    }
 }

@@ -69,6 +69,8 @@ Route::get('/scholarship/allScholarshipJson', 'ScholarshipController@allScholars
 
 Route::put('/transaction/confirm/{id}', 'TransactionController@confirm');
 
+Route::get('/locate/getAllRowsForScholarship', 'LocateController@getAllRowsForScholarship');
+
 Route::group(['middlewareGroups' => ['web']], function(){
     Route::resource('member', 'MemberController');
     Route::resource('locate', 'LocateController');

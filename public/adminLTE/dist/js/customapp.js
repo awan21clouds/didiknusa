@@ -156,7 +156,7 @@ function initReadmore(){
 }
 
 function selectLocate(element){
-    ajaxPro('GET', getBaseURL()+'locate', null, 'json', false, false, false, false, success, null, null);
+    ajaxPro('GET', getBaseURL()+'locate/getAllRowsForScholarship', null, 'json', false, false, false, false, success, null, null);
     function success(output) {
         var html = '';
         $(output.data).each(function(i, v){
