@@ -33,7 +33,7 @@
       <file leaf-file-name="donation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7195767">
+            <state vertical-scroll-proportion="0.044973545">
               <caret line="22" column="51" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="51" />
               <folding />
             </state>
@@ -918,15 +918,15 @@
       <updated>1461120290326</updated>
       <workItem from="1461120591762" duration="579000" />
       <workItem from="1461145328727" duration="4053000" />
-      <workItem from="1461157739563" duration="6470000" />
+      <workItem from="1461157739563" duration="6947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11102000" />
+    <option name="totallyTimeSpent" value="11579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1250,7 +1250,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7195767">
+        <state vertical-scroll-proportion="0.044973545">
           <caret line="22" column="51" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="51" />
           <folding />
         </state>
