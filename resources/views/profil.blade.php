@@ -119,10 +119,10 @@
             </div>
         </section><!-- /.content -->
     </div><!-- /.container -->
-    {!!Html::script('public/adminLTE/plugins/jQuery/jQuery-2.1.4.min.js')!!}
-    {!!Html::script('public/adminLTE/dist/js/profil.js')!!}
-    {!!Html::script('public/adminLTE/dist/js/myprofil.js')!!}
-    {!!Html::script('public/adminLTE/dist/js/bank.js')!!}
-    {!!Html::script('public/adminLTE/dist/js/donation.js')!!}
+    <script src="../adminLTE/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <script src="../adminLTE/dist/js/profil.js"></script>
+    <script src="../adminLTE/dist/js/myprofil.js"></script>
+    <script src="../adminLTE/dist/js/bank.js"></script>
+    <script src="../adminLTE/dist/js/donation.js"></script>
     @include('layout.script')
 @endsection
