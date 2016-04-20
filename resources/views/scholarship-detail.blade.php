@@ -10,7 +10,7 @@
                         <div class="col-md-12">
                             <div class="box box-solid">
                                 <div class="box-body no-border">
-                                    <img class="img-thumbnail no-border" src="{{ url('/') }}/public/adminLTE/dist/img/photo2.png" alt="Photo">
+                                    <img class="img-thumbnail no-border" src="{{$scholarship->picture}}" alt="Photo">
                                 </div><!-- /.box-body -->
                             </div><!-- /.box -->
                         </div>
