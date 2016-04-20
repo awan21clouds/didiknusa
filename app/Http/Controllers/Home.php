@@ -19,8 +19,8 @@ class Home extends Controller
         $scholarship = new Scholarship();
 
 
-        //return view('home')->with('scholarships',$scholarship->getRow(3));
-		return view('home');
+        return view('home')->with('scholarships',$scholarship->getRow(3));
+//		return view('home');
     }
 
     /**
