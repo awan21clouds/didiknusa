@@ -47,23 +47,23 @@
                     </div>
                     <div class="modal-body toclone">
                         <div class="form-group">
-                            <label>Label</label>
+                            <label>Peruntukan Dana</label>
                             <input type="text" name="label[]" class="form-control" placeholder="Enter ..."/>
                         </div>
                         <div class="form-group">
                             <label></label>
                             <div class="input-group">
                                 <span class="input-group-addon"><strong>Rp.</strong></span>
-                                <input type="text" name="total[]" class="form-control currency" placeholder="Enter ..." data-a-sep="." data-a-dec="," data-d-group="3" data-v-max="99999999999" data-v-min="0"/>
+                                <input type="text" name="total[]" class="form-control currency" placeholder="Ketik peruntukan dana; contoh: spp, uang saku, dll" data-a-sep="." data-a-dec="," data-d-group="3" data-v-max="99999999999" data-v-min="0"/>
                             </div>
                         </div>
-                        <a href="javascript:;" class="clone btn btn-default">clone</a>
+                        <a href="javascript:;" class="clone btn btn-default">Tambah Dana</a>
                         {{--<a href="javascript:;" class="delete">delete</a>--}}
                         {{--<div class="col-lg-12 dashed-underline"></div>--}}
                     </div>
 
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="submit" class="btn btn-primary">Simpan</button>
                     </div>
                 </div>
             </div>

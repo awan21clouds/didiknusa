@@ -292,7 +292,7 @@ function initFIPicture(){
 
 function addScholarshipVariable(){
     $('.clone').click(function(){
-        var html = '<a href="javascript:;" class="delete btn btn-danger" onclick="removeScholarshipVariable(this);">delete</a>';
+        var html = '<a href="javascript:;" class="delete btn btn-danger" onclick="removeScholarshipVariable(this);">Hapus</a>';
         var el = $(this).parent().clone().insertAfter("div.toclone:last");
         var label = el.find('input[name="label[]"]').val('');
         var total = el.find('input[name="total[]"]').val('');
