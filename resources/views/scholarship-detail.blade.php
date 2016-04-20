@@ -153,7 +153,7 @@
                                     dari target <span class="scholarship-currency">{{$scholarship->scholarship_target}}</span>
                                 </h4>
                             </div>
-                            <div class="box-footer text-black">
+                            <div class="box-body no-padding">
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <!-- Progress bars -->
@@ -195,7 +195,8 @@
                         </div><!-- /.box-body -->
 
                         @if(count($funders))
-                            <div class="box-body no-padding">
+                            <div class="box-footer text-black">
+
                                 <ul class="users-list clearfix">
                                     @foreach ($funders as $funder)
                                         <li>

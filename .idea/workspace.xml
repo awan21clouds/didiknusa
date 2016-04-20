@@ -54,9 +54,11 @@
       <file leaf-file-name="scholarship-detail.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/scholarship-detail.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90340906">
-              <caret line="208" column="30" selection-start-line="208" selection-start-column="30" selection-end-line="208" selection-end-column="30" />
-              <folding />
+            <state vertical-scroll-proportion="0.51704544">
+              <caret line="155" column="61" selection-start-line="155" selection-start-column="61" selection-end-line="155" selection-end-column="61" />
+              <folding>
+                <element signature="e#13466#13523#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -935,12 +937,12 @@
       <updated>1461120290326</updated>
       <workItem from="1461120591762" duration="579000" />
       <workItem from="1461145328727" duration="4053000" />
-      <workItem from="1461157739563" duration="3489000" />
+      <workItem from="1461157739563" duration="3683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8121000" />
+    <option name="totallyTimeSpent" value="8315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1225,9 +1227,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/scholarship-detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90340906">
-          <caret line="208" column="30" selection-start-line="208" selection-start-column="30" selection-end-line="208" selection-end-column="30" />
-          <folding />
+        <state vertical-scroll-proportion="0.51704544">
+          <caret line="155" column="61" selection-start-line="155" selection-start-column="61" selection-end-line="155" selection-end-column="61" />
+          <folding>
+            <element signature="e#13466#13523#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
