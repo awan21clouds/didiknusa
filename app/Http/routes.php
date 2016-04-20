@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', 'Home@index');
+Route::get('/', function () {
+    return redirect('/home');
+});
+
 Route::get('/home', 'Home@index');
 
 
