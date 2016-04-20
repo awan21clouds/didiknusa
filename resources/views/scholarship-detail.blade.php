@@ -10,7 +10,12 @@
                         <div class="col-md-12">
                             <div class="box box-solid">
                                 <div class="box-body no-border">
-                                    <img class="img-thumbnail no-border" src="{{$scholarship->picture}}" alt="Photo">
+                                    @if(isset($scholarship->picture))
+                                        <img class="img-thumbnail no-border" src="../{{$scholarship->picture}}" alt="Photo">
+                                    @else
+                                        <img class="img-thumbnail no-border" src="http://placehold.it/1100x500/f3f3f3/ffffff&amp;text=Tidak+ada+gambar" alt="Photo" >
+                                    @endif
+
                                 </div><!-- /.box-body -->
                             </div><!-- /.box -->
                         </div>
