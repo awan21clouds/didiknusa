@@ -16,7 +16,7 @@ function donation(){
         columns : [{
             "data" : "student_name",
             "render" : function (data, type, row) {
-                return '<a href="'+getBaseURL()+'scholarship/detail/'+data+'">'+data+'</a>';
+                return '<a href="'+getBaseURL()+'scholarship-detail/'+row['scholarship_id']+'">'+data+'</a>';
             }
         },{
             "data" : "total",
