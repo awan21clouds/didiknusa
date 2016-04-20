@@ -23,7 +23,7 @@
                     <div class="box-comment">
                             <span class="username">
                                 {{ $scholarship->student_name }}
-                                <span class="text-muted pull-right"><a href="{{ url('/') }}/scholarship/detail/{{ $scholarship->scholarship_id }}">Detail</a></span>
+                                <span class="text-muted pull-right"><a href="{{ url('/') }}/scholarship-detail/{{ $scholarship->scholarship_id }}">Detail</a></span>
                             </span><!-- /.username -->
                             <span class="readmore">
                                 {{--{{ $scholarship->scholarship_target }} <br/>--}}

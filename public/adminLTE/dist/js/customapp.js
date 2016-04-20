@@ -83,7 +83,7 @@ $(document).ready(function(){
         },
         afterSelect:function(item){
             item = item.split('+');
-            window.location = getBaseURL()+'scholarship/detail/'+item[0];
+            window.location = getBaseURL()+'scholarship-detail/'+item[0];
             $('#navbar-search-input').val('');
         }
     });
