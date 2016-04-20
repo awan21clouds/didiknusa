@@ -403,7 +403,7 @@ function insertScholarship(){
                     //console.log($(v).val());
                     var scholarship_variable_id = '114'+d.getFullYear() + concatString((d.getMonth() + 1)) + concatString(d.getDate()) + concatString(d.getHours()) + concatString(d.getMinutes()) + concatString(d.getSeconds()) + (Math.floor(Math.random() * (99 - 10) + 10));
                     var label = $('#form-scholarship input[name="label[]"]').eq(i).val()
-                    var total = parseInt($('#form-scholarship input[name="total[]"]').eq(i).val());
+                    var total = parseInt($('#form-scholarship input[name="total[]"]').eq(i).val().replace(/\./g,''));
                     formData.append('scholarship_variable_id', scholarship_variable_id);
                     formData.append('label', label);
                     formData.append('total', total);

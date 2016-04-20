@@ -252,6 +252,7 @@ function adminDonation(){
         pageLength : 5
     });
 }
+
 function verifyTransaction(i){
     var temp = $(i).val().split('+');
     var transaction_id = temp[0];
