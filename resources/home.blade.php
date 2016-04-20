@@ -167,8 +167,7 @@
             </div>
         </section><!-- /.content -->
     </div><!-- /.container -->
-    {!!Html::script('public/adminLTE/plugins/jQuery/jQuery-2.1.4.min.js')!!}
-    {{--{!!Html::script('http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.js')!!}--}}
-    {!!Html::script('public/adminLTE/dist/js/home.js')!!}
+    <script src="../adminLTE/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+	<script src="../adminLTE/dist/js/home.js"></script>
     @include('layout.script')
 @endsection
