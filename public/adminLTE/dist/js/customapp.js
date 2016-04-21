@@ -114,7 +114,8 @@ function noHover(i){
 function disableButton(){
     //var progress = .html();
     $('.progress-bar-green').each(function(i, v){
-        alert($(this).html());
+        var progress = parseFloat($(this).html().replace(/\%/g,'').trim());
+        alert(progress);
     });
 
 }
