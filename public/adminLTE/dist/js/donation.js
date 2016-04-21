@@ -218,7 +218,7 @@ function adminDonation(){
             {"title":"","targets":3}
         ],
         columns : [{
-            "data" : "name",
+            "data" : "member_id",
             "render" : function (data, type, row) {
                 return '<a href="'+getBaseURL()+'scholarship/detail/'+data+'">'+data+'</a>';
             }
@@ -228,7 +228,7 @@ function adminDonation(){
                 return toRp(data);
             }
         },{
-            "data" : "transaction_status"
+            "data" : "random"
         },{
             "data" : "transaction_id",
             "render" : function (data, type, row) {
