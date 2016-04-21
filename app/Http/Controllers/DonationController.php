@@ -103,7 +103,9 @@ class DonationController extends Controller
     }
 
     public function detail($id){
-        return view('donation-detail');
+        $donation = Donation::where('donation_id', '=', $id)->first();
+
+        return view('donation-detail')->with('donation',$donation);
 //        return 'hello world!';
     }
 }
