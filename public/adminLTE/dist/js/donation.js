@@ -302,6 +302,7 @@ function verifyTransaction(i){
 }
 
 function insertCreditByConfirm(formData){
+    var d = new Date();
     var credit_id = '118'+d.getFullYear() + concatString((d.getMonth() + 1)) + concatString(d.getDate()) + concatString(d.getHours()) + concatString(d.getMinutes()) + concatString(d.getSeconds()) + (Math.floor(Math.random() * (99 - 10) + 10));
     formData.append('credit_id', credit_id);
     ajaxPro('POST', getBaseURL()+'credit', formData, 'html', false, false, false, false, success, error, null);
