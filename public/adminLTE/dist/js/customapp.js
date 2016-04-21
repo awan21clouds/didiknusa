@@ -471,6 +471,7 @@ function insertDonation(){
                 notify('info', 'Donasi Berhasil Ditambahkan!', 'Silahkan lihat detail donasi dan konfirmasi pembayaran di menu donasi', 'glyphicon glyphicon-warning-sign');
                 $("#form-donation")[0].reset();
                 $("#form-donation").bootstrapValidator('resetForm', true);
+                window.location = getBaseURL()+'donation-detail/'+donation_id;
             }
             function error(jqXHR, textStatus, errorThrown) {
                 alert('An error occurred... Look at the console (F12 or Ctrl+Shift+I, Console tab) for more information!');
