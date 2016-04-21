@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="287b53cf-0f8e-43da-b3a2-401e366cef3c" name="Default" comment="K">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js" afterPath="$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js" />
     </list>
     <ignored path="didikbangsaGit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,24 +31,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="donation.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="donation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.884434">
+            <state vertical-scroll-proportion="0.0">
               <caret line="203" column="9" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customapp.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="customapp.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2413793">
-              <caret line="486" column="42" selection-start-line="486" selection-start-column="42" selection-end-line="486" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.69873416">
+              <caret line="486" column="82" selection-start-line="486" selection-start-column="82" selection-end-line="486" selection-end-column="82" />
               <folding>
-                <marker date="1461210136820" expanded="true" signature="2786:3302" placeholder="..." />
-                <marker date="1461210136820" expanded="true" signature="2903:3275" placeholder="..." />
+                <marker date="1461211114735" expanded="true" signature="2786:3302" placeholder="..." />
+                <marker date="1461211114735" expanded="true" signature="2903:3275" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -967,12 +968,12 @@
       <workItem from="1461120591762" duration="579000" />
       <workItem from="1461145328727" duration="4053000" />
       <workItem from="1461157739563" duration="10950000" />
-      <workItem from="1461202861459" duration="7855000" />
+      <workItem from="1461202861459" duration="7927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23437000" />
+    <option name="totallyTimeSpent" value="23509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1032,8 +1033,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
           <folding>
-            <marker date="1461210136820" expanded="true" signature="2786:3302" placeholder="..." />
-            <marker date="1461210136820" expanded="true" signature="2903:3275" placeholder="..." />
+            <marker date="1461211114735" expanded="true" signature="2786:3302" placeholder="..." />
+            <marker date="1461211114735" expanded="true" signature="2903:3275" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1129,8 +1130,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="56" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
           <folding>
-            <marker date="1461210136820" expanded="true" signature="2786:3302" placeholder="..." />
-            <marker date="1461210136820" expanded="true" signature="2903:3275" placeholder="..." />
+            <marker date="1461211114735" expanded="true" signature="2786:3302" placeholder="..." />
+            <marker date="1461211114735" expanded="true" signature="2903:3275" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1349,22 +1350,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
+    <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2413793">
-          <caret line="486" column="42" selection-start-line="486" selection-start-column="42" selection-end-line="486" selection-end-column="42" />
-          <folding>
-            <marker date="1461210136820" expanded="true" signature="2786:3302" placeholder="..." />
-            <marker date="1461210136820" expanded="true" signature="2903:3275" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="203" column="9" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
+    <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.884434">
-          <caret line="203" column="9" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="0.69873416">
+          <caret line="486" column="82" selection-start-line="486" selection-start-column="82" selection-end-line="486" selection-end-column="82" />
+          <folding>
+            <marker date="1461211114735" expanded="true" signature="2786:3302" placeholder="..." />
+            <marker date="1461211114735" expanded="true" signature="2903:3275" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
