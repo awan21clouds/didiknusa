@@ -67,13 +67,13 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Tanggal Pengiriman</label>
-                                    <input type="text" name="payment_date" class="form-control" style="border: 1px solid limegreen" placeholder="Ketik tanggal pembayaran" readonly/>
+                                    <input type="text" name="payment_date" class="form-control" placeholder="Ketik tanggal pembayaran" readonly/>
                                 </div>
                                 <div class="form-group">
                                     <label>Dana Yang Perlu Dikirimkan</label>
-                                    <div class="input-group">
+                                    <div class="input-group" style="border: 1px solid limegreen">
                                         <span class="input-group-addon"><strong>Rp.</strong></span>
-                                        <input type="text" readonly id="bill" class="form-control currency" data-a-sep="." data-a-dec="," data-d-group="3" data-v-max="99999999999" data-v-min="0" placeholder="Ketik jumlah pembayaran"/>
+                                        <input type="text" readonly id="bill" class="form-control currency"  data-a-sep="." data-a-dec="," data-d-group="3" data-v-max="99999999999" data-v-min="0" placeholder="Ketik jumlah pembayaran"/>
                                     </div>
                                 </div>
                                 <div class="form-group">
