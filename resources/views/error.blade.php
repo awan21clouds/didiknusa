@@ -21,7 +21,7 @@
                 Copyright &copy; 2016<br>
             </div>
         </div><!-- /.center -->
-        {!!Html::script('public/adminLTE/plugins/jQuery/jQuery-2.1.4.min.js')!!}
+        <script src="../adminLTE/plugins/jQuery/jQuery-2.1.4.min.js"></script>
         @include('layout.script')
     </body>
 </html>
