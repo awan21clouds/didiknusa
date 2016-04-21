@@ -9,6 +9,7 @@
                     <a href="javascript:;"><b>Donasi Berhasil!</b></a>
                 </div>
                 <!-- User name -->
+                <div class="lockscreen-name text-center">Segera lakukan pengiriman dan konfirmasi donasi anda pada menu <a href="{{ url('/') }}/profil/{{md5('my-donation')}}" class="animsition-link">Donasi</a>.</div>
                 <div class="lockscreen-name text-center">Segera lakukan konfirmasi pengiriman dana donasi anda.</div>
                 <div class="lockscreen-name text-center">Donasi yang perlu anda kirimkan sebesar : </div>
                 <br>
@@ -19,7 +20,7 @@
                     Pastikan anda telah mengirimkan dan melakukan konfirmasi sebelum batas waktu pengumpulan dana.
                 </div>
                 <div class="text-center">
-                    <a href="{{ url('/') }}/home" class="animsition-link">Masuk Lagi</a>
+                    <a href="{{ url('/') }}/home" class="animsition-link">Kembali ke beranda</a>
                 </div>
                 <div class="lockscreen-footer text-center">
                     <h3><b>DidikBangsa</b>.com</h3>
