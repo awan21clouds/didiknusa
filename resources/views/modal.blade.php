@@ -21,10 +21,10 @@
                             <label>Foto</label>
                             <input type="file" name="picture" class="form-control" placeholder="Masukkan foto profil siswa"/>
                         </div>
-                        <div class="form-group">
-                            <label>Video</label>
-                            <input type="text" name="video" class="form-control" placeholder="Masukkan link video profil siswa. i.e https://www.youtube.com/"/>
-                        </div>
+                        {{--<div class="form-group">--}}
+                            {{--<label>Video</label>--}}
+                            {{--<input type="text" name="video" class="form-control" placeholder="Masukkan link video profil siswa. i.e https://www.youtube.com/"/>--}}
+                        {{--</div>--}}
                         <div class="form-group">
                             <label>Alamat</label>
                             <select name="location_id" class="form-control"></select>
