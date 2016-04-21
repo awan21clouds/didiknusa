@@ -22,7 +22,6 @@ class Credit extends Model
         $transaction = DB::table('credit')
             ->join('transaction', 'credit.transaction_id', '=', 'transaction.transaction_id')
             ->select('credit.*')
-            ->where('transaction.transaction_detail_id', '=', '1')
             ->where('transaction.member_id', '=', $id)
             ->orderBy('transaction.created', 'desc')
             ->get();
