@@ -100,6 +100,7 @@ $(document).ready(function(){
     loadHomeScholarship();
     loadAllScholarhip();
     bank_show();
+    disableButton();
 });
 
 new WOW().init();
@@ -109,6 +110,14 @@ function noHover(i){
     $(i).focus(function(){
         $(this).css('background-color', 'transparent');
     });
+}
+
+function disableButton(){
+    //var progress = .html();
+    $('.progress-bar-green').each(function(i, v){
+        alert($(this).html());
+    });
+
 }
 
 function initPaginator(){
