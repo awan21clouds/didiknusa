@@ -4,7 +4,7 @@
     <div class="container">
         <!-- Main content -->
         <section class="content">
-            <div class="lockscreen-wrapper animated rubberBand animsition" style="margin-top: -10px;">
+            <div class="lockscreen-wrapper animated rubberBand animsition" style="margin-top: 0px;">
                 <div class="lockscreen-logo">
                     <a href="javascript:;"><b>Donasi Berhasil!</b></a>
                 </div>
