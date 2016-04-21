@@ -4,6 +4,7 @@
     <list default="true" id="287b53cf-0f8e-43da-b3a2-401e366cef3c" name="Default" comment="K">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js" afterPath="$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout/scholarship-template.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout/scholarship-template.blade.php" />
     </list>
     <ignored path="didikbangsaGit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +45,11 @@
       <file leaf-file-name="customapp.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40369394">
-              <caret line="118" column="82" selection-start-line="118" selection-start-column="82" selection-end-line="118" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.35883906">
+              <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
               <folding>
-                <marker date="1461204210669" expanded="true" signature="2786:3302" placeholder="..." />
-                <marker date="1461204210669" expanded="true" signature="2903:3275" placeholder="..." />
+                <marker date="1461204537244" expanded="true" signature="2786:3302" placeholder="..." />
+                <marker date="1461204537244" expanded="true" signature="2903:3275" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -89,10 +90,10 @@
       <file leaf-file-name="scholarship-template.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layout/scholarship-template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.538462">
-              <caret line="45" column="166" selection-start-line="45" selection-start-column="155" selection-end-line="45" selection-end-column="166" />
+            <state vertical-scroll-proportion="-8.576923">
+              <caret line="42" column="107" selection-start-line="42" selection-start-column="107" selection-end-line="42" selection-end-column="107" />
               <folding>
-                <element signature="e#2764#2868#0#HTML" expanded="true" />
+                <element signature="e#2799#2903#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -982,12 +983,12 @@
       <workItem from="1461120591762" duration="579000" />
       <workItem from="1461145328727" duration="4053000" />
       <workItem from="1461157739563" duration="10950000" />
-      <workItem from="1461202861459" duration="1348000" />
+      <workItem from="1461202861459" duration="1655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16930000" />
+    <option name="totallyTimeSpent" value="17237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1047,8 +1048,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
           <folding>
-            <marker date="1461204210669" expanded="true" signature="2786:3302" placeholder="..." />
-            <marker date="1461204210669" expanded="true" signature="2903:3275" placeholder="..." />
+            <marker date="1461204537244" expanded="true" signature="2786:3302" placeholder="..." />
+            <marker date="1461204537244" expanded="true" signature="2903:3275" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1084,7 +1085,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2764#2868#0#HTML" expanded="true" />
+            <element signature="e#2799#2903#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1133,7 +1134,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="104" selection-start-line="25" selection-start-column="104" selection-end-line="25" selection-end-column="104" />
           <folding>
-            <element signature="e#2764#2868#0#HTML" expanded="true" />
+            <element signature="e#2799#2903#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1143,8 +1144,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="56" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
           <folding>
-            <marker date="1461204210669" expanded="true" signature="2786:3302" placeholder="..." />
-            <marker date="1461204210669" expanded="true" signature="2903:3275" placeholder="..." />
+            <marker date="1461204537244" expanded="true" signature="2786:3302" placeholder="..." />
+            <marker date="1461204537244" expanded="true" signature="2903:3275" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1335,21 +1336,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout/scholarship-template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.538462">
-          <caret line="45" column="166" selection-start-line="45" selection-start-column="155" selection-end-line="45" selection-end-column="166" />
+        <state vertical-scroll-proportion="-8.576923">
+          <caret line="42" column="107" selection-start-line="42" selection-start-column="107" selection-end-line="42" selection-end-column="107" />
           <folding>
-            <element signature="e#2764#2868#0#HTML" expanded="true" />
+            <element signature="e#2799#2903#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40369394">
-          <caret line="118" column="82" selection-start-line="118" selection-start-column="82" selection-end-line="118" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.35883906">
+          <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
           <folding>
-            <marker date="1461204210669" expanded="true" signature="2786:3302" placeholder="..." />
-            <marker date="1461204210669" expanded="true" signature="2903:3275" placeholder="..." />
+            <marker date="1461204537244" expanded="true" signature="2786:3302" placeholder="..." />
+            <marker date="1461204537244" expanded="true" signature="2903:3275" placeholder="..." />
           </folding>
         </state>
       </provider>
