@@ -270,7 +270,7 @@ function verifyTransaction(i){
     });
 
     function success(output) {
-        insertTransactionByConfirm(CSRF_TOKEN, random);
+        insertTransactionByConfirm(CSRF_TOKEN, random, member_id);
         dt_admin_donation.ajax.reload();
         notify('info', 'Verifikasi Berhasil!', 'Silahkan tunggu proses verifikasi dari admin', 'glyphicon glyphicon-warning-sign');
     }
@@ -308,7 +308,7 @@ function insertCreditByConfirm(formData){
     }
 }
 
-function insertTransactionByConfirm(token, random){
+function insertTransactionByConfirm(token, random, member_id){
     var formData = new FormData();
     var d = new Date();
     var transaction_id = '115'+d.getFullYear() + concatString((d.getMonth() + 1)) + concatString(d.getDate()) + concatString(d.getHours()) + concatString(d.getMinutes()) + concatString(d.getSeconds()) + (Math.floor(Math.random() * (99 - 10) + 10));
@@ -326,13 +326,6 @@ function insertTransactionByConfirm(token, random){
     }
 
     function error(jqXHR, textStatus, errorThrown) {
-        alert('An error occurred... Look at the console (F12 or Ctrl+Shift+I, Console tab) for more information!');
-        $('#result').html('<p>status code: '+jqXHR.status+'</p><p>errorThrown: ' + errorThrown + '</p><p>jqXHR.responseText:</p><div>'+jqXHR.responseText + '</div>');
-        console.log('jqXHR:');
-        console.log(jqXHR);
-        console.log('textStatus:');
-        console.log(textStatus);
-        console.log('errorThrown:');
-        console.log(errorThrown);
+        insertTransactionByConfirm(token, random);
     }
 }
