@@ -167,7 +167,7 @@
                                         <small class="pull-right scholarship-currency">{{ $scholarship->donation_total }}</small>
                                     </div>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-green" style="width: {{ round((($scholarship->donation_total/$scholarship->scholarship_target)*100),2).'%' }};">{{ round((($scholarship->donation_total/$scholarship->scholarship_target)*100),2) }}%</div>
+                                        <div class="progress-bar progress-bar-green" alt="{{ $scholarship->deadline }}" style="width: {{ round((($scholarship->donation_total/$scholarship->scholarship_target)*100),2).'%' }};">{{ round((($scholarship->donation_total/$scholarship->scholarship_target)*100),2) }}%</div>
                                     </div>
                                     <div class="clearfix">
                                         <small class="pull-left">@if(Session::has('member'))<a href="javascript:;" onclick="scholarshipDonation(this);" class="btn btn-success btn-sm" alt="{{$scholarship->scholarship_id}}" >Berikan Beasiswa</a>@endif</small>
