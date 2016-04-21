@@ -157,7 +157,7 @@ function login(){
                 //output.status==1 ? window.location = "../../home" : window.location = "../../member/error";
                 switch (output.status){
                     case 0 : window.location = getBaseURL()+"home"; break;
-                    case 1 : window.location = getBaseURL()+"member/profil/00fb9a11afb139bec093f26de55f6a48"; break;
+                    case 1 : window.location = getBaseURL()+"profil/00fb9a11afb139bec093f26de55f6a48"; break;
                     default : window.location = getBaseURL()+"member/error"; break;
                 }
                 //if(output.status==0){
@@ -207,13 +207,6 @@ function forgetPassword(){
                 notify('info', 'Reset password berhasil!', 'Silahkan cek email anda', 'glyphicon glyphicon-warning-sign');
                 $(i).css("background-color", 'transparent');
                 $('#login').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});
-
-                //output.status==1 ? window.location = "../../home" : window.location = "../../member/error";
-                //if(output.status==1){
-                //    window.location = getBaseURL()+"home";
-                //}else{
-                //    window.location = getBaseURL()+"member/error";
-                //}
                 $("#form-password").bootstrapValidator('resetForm', true);
                 $("#form-password")[0].reset();
             }

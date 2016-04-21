@@ -282,14 +282,34 @@ function verifyTransaction(i){
         formData.append('total', random);
         ajaxPro('POST', getBaseURL()+'transaction', formData, 'html', false, false, false, false, successTransaction, error, null);
         function successTransaction(output){
-            var credit_id = '118'+d.getFullYear() + concatString((d.getMonth() + 1)) + concatString(d.getDate()) + concatString(d.getHours()) + concatString(d.getMinutes()) + concatString(d.getSeconds()) + (Math.floor(Math.random() * (99 - 10) + 10));
-            formData.append('credit_id', credit_id);
-            ajaxPro('POST', getBaseURL()+'credit', formData, 'html', false, false, false, false, null, error, null);
+
+            insertCreditByConfirm(formData)
         }
 
         dt_admin_donation.ajax.reload();
         notify('info', 'Verifikasi Berhasil!', 'Silahkan tunggu proses verifikasi dari admin', 'glyphicon glyphicon-warning-sign');
     }
+    function error(jqXHR, textStatus, errorThrown) {
+        alert('An error occurred... Look at the console (F12 or Ctrl+Shift+I, Console tab) for more information!');
+        $('#result').html('<p>status code: '+jqXHR.status+'</p><p>errorThrown: ' + errorThrown + '</p><p>jqXHR.responseText:</p><div>'+jqXHR.responseText + '</div>');
+        console.log('jqXHR:');
+        console.log(jqXHR);
+        console.log('textStatus:');
+        console.log(textStatus);
+        console.log('errorThrown:');
+        console.log(errorThrown);
+    }
+}
+
+function insertCreditByConfirm(formData){
+    var credit_id = '118'+d.getFullYear() + concatString((d.getMonth() + 1)) + concatString(d.getDate()) + concatString(d.getHours()) + concatString(d.getMinutes()) + concatString(d.getSeconds()) + (Math.floor(Math.random() * (99 - 10) + 10));
+    formData.append('credit_id', credit_id);
+    ajaxPro('POST', getBaseURL()+'credit', formData, 'html', false, false, false, false, success, error, null);
+
+    function success(output){
+        console.log('success');
+    }
+
     function error(jqXHR, textStatus, errorThrown) {
         alert('An error occurred... Look at the console (F12 or Ctrl+Shift+I, Console tab) for more information!');
         $('#result').html('<p>status code: '+jqXHR.status+'</p><p>errorThrown: ' + errorThrown + '</p><p>jqXHR.responseText:</p><div>'+jqXHR.responseText + '</div>');
