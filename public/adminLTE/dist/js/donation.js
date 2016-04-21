@@ -218,7 +218,7 @@ function adminDonation(){
             {"title":"","targets":3}
         ],
         columns : [{
-            "data" : "student_name",
+            "data" : "name",
             "render" : function (data, type, row) {
                 return '<a href="'+getBaseURL()+'scholarship/detail/'+data+'">'+data+'</a>';
             }
