@@ -31,7 +31,7 @@
                         </div>
                         <div class="form-group">
                             <label>Batas Waktu</label>
-                            <input type="text" name="deadline" class="form-control" placeholder="Masukkan link video profil siswa" readonly/>
+                            <input type="text" name="deadline" class="form-control" readonly/>
                         </div>
                         <div class="form-group">
                             <label>Deskripsi</label>
