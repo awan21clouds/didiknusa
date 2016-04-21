@@ -6,7 +6,7 @@
     <body class="hold-transition lockscreen">
         <div class="lockscreen-wrapper animated rubberBand animsition">
             <div class="lockscreen-logo">
-                <a href="login"><b>Terjadi Kesalahan!</b></a>
+                <a href="javascript:;"><b>Terjadi Kesalahan!</b></a>
             </div>
             <!-- User name -->
             <div class="lockscreen-name">Email dan password tidak valid!</div>
