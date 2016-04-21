@@ -218,7 +218,7 @@ function adminDonation(){
             {"title":"","targets":3}
         ],
         columns : [{
-            "data" : "member_id",
+            "data" : "transaction_member_id",
             "render" : function (data, type, row) {
                 return '<a href="'+getBaseURL()+'scholarship/detail/'+data+'">'+data+'</a>';
             }
@@ -239,7 +239,7 @@ function adminDonation(){
 
                 var html = '';
                 html += '<center><div class="btn-group">';
-                html += '<button type="button" class="detail btn btn-success" value="' + row['transaction_id']+'+'+row['random']+'+'+row['member_id'] + '" onclick="verifyTransaction(this);" '+disabled+'><i class="fa fa-check-square-o" aria-hidden="true"></i> Verifikasi</button>';
+                html += '<button type="button" class="detail btn btn-success" value="' + row['transaction_id']+'+'+row['random']+'+'+row['transaction_member_id'] + '" onclick="verifyTransaction(this);" '+disabled+'><i class="fa fa-check-square-o" aria-hidden="true"></i> Verifikasi</button>';
                 html += '</div></center>';
                 return html;
             }
