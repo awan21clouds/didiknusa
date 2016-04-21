@@ -201,10 +201,6 @@ function paymentDate(){
     });
 }
 
-function toMySQLDate(i){
-    var temp = i.split('-');
-    return temp[2]+'-'+temp[1]+'-'+temp[0];
-}
 
 function initRupiah(){
     $(".rupiah").keypress(function() {

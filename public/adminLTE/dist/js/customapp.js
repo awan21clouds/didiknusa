@@ -590,3 +590,8 @@ function toRp2(angka){
     }
     return rev2.split('').reverse().join('');
 }
+
+function toMySQLDate(i){
+    var temp = i.split('-');
+    return temp[2]+'-'+temp[1]+'-'+temp[0];
+}
