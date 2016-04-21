@@ -489,8 +489,8 @@ function insertDonation(){
             console.log(formData.get('deadline'));
             console.log(toMySQLDate(formData.get('deadline')));
 
-            console.log($(this).find('input[name=deadline]').val());
-            console.log(toMySQLDate($(this).find('input[name=deadline]').val()));
+            console.log($('#form-donation').find('input[name=deadline]').val());
+            console.log(toMySQLDate($('#form-donation').find('input[name=deadline]').val()));
             ajaxPro('POST', getBaseURL()+'transaction', formData, 'html', false, false, false, false, success, error, null);
             function success(output) {
                 var donation_id = '116'+d.getFullYear() + concatString((d.getMonth() + 1)) + concatString(d.getDate()) + concatString(d.getHours()) + concatString(d.getMinutes()) + concatString(d.getSeconds()) + (Math.floor(Math.random() * (99 - 10) + 10));

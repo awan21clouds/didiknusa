@@ -43,11 +43,11 @@
       <file leaf-file-name="customapp.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7848101">
-              <caret line="488" column="61" selection-start-line="488" selection-start-column="61" selection-end-line="488" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.6556962">
+              <caret line="491" column="24" selection-start-line="491" selection-start-column="24" selection-end-line="491" selection-end-column="24" />
               <folding>
-                <marker date="1461211342094" expanded="true" signature="2786:3302" placeholder="..." />
-                <marker date="1461211342094" expanded="true" signature="2903:3275" placeholder="..." />
+                <marker date="1461211784595" expanded="true" signature="2786:3302" placeholder="..." />
+                <marker date="1461211784595" expanded="true" signature="2903:3275" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -967,12 +967,12 @@
       <workItem from="1461120591762" duration="579000" />
       <workItem from="1461145328727" duration="4053000" />
       <workItem from="1461157739563" duration="10950000" />
-      <workItem from="1461202861459" duration="8525000" />
+      <workItem from="1461202861459" duration="8665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24107000" />
+    <option name="totallyTimeSpent" value="24247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1032,8 +1032,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
           <folding>
-            <marker date="1461211342094" expanded="true" signature="2786:3302" placeholder="..." />
-            <marker date="1461211342094" expanded="true" signature="2903:3275" placeholder="..." />
+            <marker date="1461211784595" expanded="true" signature="2786:3302" placeholder="..." />
+            <marker date="1461211784595" expanded="true" signature="2903:3275" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1129,8 +1129,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="56" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
           <folding>
-            <marker date="1461211342094" expanded="true" signature="2786:3302" placeholder="..." />
-            <marker date="1461211342094" expanded="true" signature="2903:3275" placeholder="..." />
+            <marker date="1461211784595" expanded="true" signature="2786:3302" placeholder="..." />
+            <marker date="1461211784595" expanded="true" signature="2903:3275" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1359,11 +1359,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7848101">
-          <caret line="488" column="61" selection-start-line="488" selection-start-column="61" selection-end-line="488" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.6556962">
+          <caret line="491" column="24" selection-start-line="491" selection-start-column="24" selection-end-line="491" selection-end-column="24" />
           <folding>
-            <marker date="1461211342094" expanded="true" signature="2786:3302" placeholder="..." />
-            <marker date="1461211342094" expanded="true" signature="2903:3275" placeholder="..." />
+            <marker date="1461211784595" expanded="true" signature="2786:3302" placeholder="..." />
+            <marker date="1461211784595" expanded="true" signature="2903:3275" placeholder="..." />
           </folding>
         </state>
       </provider>
