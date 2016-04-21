@@ -6,13 +6,16 @@
         <section class="content">
             <div class="lockscreen-wrapper animated rubberBand animsition">
                 <div class="lockscreen-logo">
-                    <a href="javascript:;"><b>Terjadi Kesalahan!</b></a>
+                    <a href="javascript:;"><b>Donasi Berhasil!</b></a>
                 </div>
                 <!-- User name -->
-                <div class="lockscreen-name">Email dan password tidak valid!</div>
-
+                <div class="lockscreen-name text-center">Segera lakukan konfirmasi pengiriman dana donasi anda.</div>
+                <div class="lockscreen-name text-center">Donasi yang perlu anda kirimkan sebesar : </div>
+                <div class="lockscreen-logo">
+                    <a href="javascript:;"><b>Donasi Berhasil!</b></a>
+                </div>
                 <div class="help-block text-center">
-                    Pastikan anda memasukan email dan password yang valid!
+                    Pastikan anda telah mengirimkan dan melakukan konfirmasi sebelum batas waktu pengumpulan dan
                 </div>
                 <div class="text-center">
                     <a href="{{ url('/') }}/home" class="animsition-link">Masuk Lagi</a>
