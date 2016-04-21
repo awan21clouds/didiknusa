@@ -44,10 +44,8 @@ class ScholarshipController extends Controller
         $scholarship->scholarship_id = $request->scholarship_id;
         $scholarship->student_name = $request->student_name;
         $scholarship->deadline = $request->deadline;
-//        $scholarship->picture = $request->picture;
         $scholarship->video = $request->video;
-        $scholarship->short_description = $request->short_description;
-        $scholarship->long_description = $request->long_description;
+        $scholarship->description = $request->description;
         $scholarship->created = $request->created;
         $scholarship->location_id = $request->location_id;
         $scholarship->member_id = $request->member_id;

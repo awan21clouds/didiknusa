@@ -44,13 +44,13 @@
                     <div class="modal-body toclone">
                         <div class="form-group">
                             <label>Peruntukan Dana</label>
-                            <input type="text" name="label[]" class="form-control" placeholder="Enter ..."/>
+                            <input type="text" name="label[]" class="form-control" placeholder="Ketik peruntukan dana; contoh: spp, uang saku, dll"/>
                         </div>
                         <div class="form-group">
                             <label></label>
                             <div class="input-group">
                                 <span class="input-group-addon"><strong>Rp.</strong></span>
-                                <input type="text" name="total[]" class="form-control currency" placeholder="Ketik peruntukan dana; contoh: spp, uang saku, dll" data-a-sep="." data-a-dec="," data-d-group="3" data-v-max="99999999999" data-v-min="0"/>
+                                <input type="text" name="total[]" class="form-control currency" placeholder="Contoh: 100.000, 500.000, dll" data-a-sep="." data-a-dec="," data-d-group="3" data-v-max="99999999999" data-v-min="0"/>
                             </div>
                         </div>
                         <a href="javascript:;" class="clone btn btn-default">Tambah Dana</a>
