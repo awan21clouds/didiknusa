@@ -184,15 +184,23 @@
                                 </dl>
                             </div>
                         </div>
+                        <div class="box-body no-padding" style="display: block; border-bottom: 1px solid #f3f3f3;">
+                            <div class="col-sm-12 border-right">
+                                <dl>
+                                    <dt class="text-center">Batas Waktu</dt>
+                                    <dd class="text-center"><h1 class="dashed-underline">{{$scholarship->scholarship_deadline}}</h1></dd>
+                                </dl>
+                            </div>
+                        </div>
                         <div class="box-body no-padding bg-black">
                             <div class="col-md-12">
                                 <div id="DateCountdown" class="col-sm-11" data-date="{{$scholarship->deadline}} 00:00:00" style="height: 100px; margin: 0px auto; margin-top:25px;"></div><!-- /.col -->
                             </div>
                         </div><!-- /.box-body -->
-                        <div class="box-body no-padding bg-green">
-                            <!--The calendar -->
-                            <div id="calendar" alt="{{$scholarship->scholarship_deadline}}" style="width: 100%"></div>
-                        </div><!-- /.box-body -->
+                        {{--<div class="box-body no-padding bg-green">--}}
+                            {{--<!--The calendar -->--}}
+                            {{--<div id="calendar" alt="{{$scholarship->scholarship_deadline}}" style="width: 100%"></div>--}}
+                        {{--</div><!-- /.box-body -->--}}
 
                         @if(count($funders))
                             <div class="box-footer text-black">
