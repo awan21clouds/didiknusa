@@ -225,7 +225,7 @@ function initDeadline(){
         showWeekNumbers: true,
         drops: "up",
         "locale": {
-            "format": "YYYY-MM-DD"
+            "format": "DD-MM-YYYY"
         }
         //showDropdowns: true
     });
@@ -484,6 +484,7 @@ function insertDonation(){
             formData.append('transaction_status_id', '0');
             formData.append('created', getCurrentDateTime());
             formData.set('total', formData.get('total').replace(/\./g,''));
+            formData.set('deadline', toMySQLDate(formData.get('deadline')));
             ajaxPro('POST', getBaseURL()+'transaction', formData, 'html', false, false, false, false, success, error, null);
             function success(output) {
                 var donation_id = '116'+d.getFullYear() + concatString((d.getMonth() + 1)) + concatString(d.getDate()) + concatString(d.getHours()) + concatString(d.getMinutes()) + concatString(d.getSeconds()) + (Math.floor(Math.random() * (99 - 10) + 10));
