@@ -315,7 +315,7 @@ function insertTransactionByConfirm(token, random, member_id){
     formData.append('_token', token);
     formData.append('transaction_id', transaction_id);
     formData.append('member_id', member_id);
-    formData.append('transaction_detail_id', '1');
+    formData.set('transaction_detail_id', '1');
     formData.append('transaction_status_id', '2');
     formData.append('created', getCurrentDateTime());
     formData.append('total', random);
