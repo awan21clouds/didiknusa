@@ -10,7 +10,6 @@
                         <div class="box-body">
                             <div class="callout callout-info">
                                 <h1>Donasi Berhasil!</h1>
-                                <p>Silahkan ke menu donasi untuk melihat detail dan konfirmasi pengiriman dana donasi</p>
                             </div>
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
