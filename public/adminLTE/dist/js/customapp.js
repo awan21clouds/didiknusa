@@ -439,6 +439,7 @@ function insertScholarship(){
                 $("#form-scholarship").bootstrapValidator('resetForm', true);
                 loadHomeScholarship();
                 loadAllScholarhip();
+                window.location = getBaseURL()+'scholarship-detail/'+scholarship_id;
             }
             function error(jqXHR, textStatus, errorThrown) {
                 alert('An error occurred... Look at the console (F12 or Ctrl+Shift+I, Console tab) for more information!');
