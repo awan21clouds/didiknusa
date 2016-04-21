@@ -270,22 +270,7 @@ function verifyTransaction(i){
     });
 
     function success(output) {
-        var formData = new FormData();
-        var d = new Date();
-        var transaction_id = '115'+d.getFullYear() + concatString((d.getMonth() + 1)) + concatString(d.getDate()) + concatString(d.getHours()) + concatString(d.getMinutes()) + concatString(d.getSeconds()) + (Math.floor(Math.random() * (99 - 10) + 10));
-        formData.append('_token', CSRF_TOKEN);
-        formData.append('transaction_id', transaction_id);
-        formData.append('member_id', member_id);
-        formData.append('transaction_detail_id', '1');
-        formData.append('transaction_status_id', '2');
-        formData.append('created', getCurrentDateTime());
-        formData.append('total', random);
-        ajaxPro('POST', getBaseURL()+'transaction', formData, 'html', false, false, false, false, successTransaction, error, null);
-        function successTransaction(output){
-
-            insertCreditByConfirm(formData)
-        }
-
+        insertTransactionByConfirm();
         dt_admin_donation.ajax.reload();
         notify('info', 'Verifikasi Berhasil!', 'Silahkan tunggu proses verifikasi dari admin', 'glyphicon glyphicon-warning-sign');
     }
@@ -309,6 +294,35 @@ function insertCreditByConfirm(formData){
 
     function success(output){
         console.log('success');
+    }
+
+    function error(jqXHR, textStatus, errorThrown) {
+        alert('An error occurred... Look at the console (F12 or Ctrl+Shift+I, Console tab) for more information!');
+        $('#result').html('<p>status code: '+jqXHR.status+'</p><p>errorThrown: ' + errorThrown + '</p><p>jqXHR.responseText:</p><div>'+jqXHR.responseText + '</div>');
+        console.log('jqXHR:');
+        console.log(jqXHR);
+        console.log('textStatus:');
+        console.log(textStatus);
+        console.log('errorThrown:');
+        console.log(errorThrown);
+    }
+}
+
+function insertTransactionByConfirm(){
+    var formData = new FormData();
+    var d = new Date();
+    var transaction_id = '115'+d.getFullYear() + concatString((d.getMonth() + 1)) + concatString(d.getDate()) + concatString(d.getHours()) + concatString(d.getMinutes()) + concatString(d.getSeconds()) + (Math.floor(Math.random() * (99 - 10) + 10));
+    formData.append('_token', CSRF_TOKEN);
+    formData.append('transaction_id', transaction_id);
+    formData.append('member_id', member_id);
+    formData.append('transaction_detail_id', '1');
+    formData.append('transaction_status_id', '2');
+    formData.append('created', getCurrentDateTime());
+    formData.append('total', random);
+    ajaxPro('POST', getBaseURL()+'transaction', formData, 'html', false, false, false, false, success, error, null);
+    function success(output){
+
+        insertCreditByConfirm(formData);
     }
 
     function error(jqXHR, textStatus, errorThrown) {
