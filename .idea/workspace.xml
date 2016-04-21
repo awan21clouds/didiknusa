@@ -30,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="donation.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="donation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="144" column="82" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="82" />
+            <state vertical-scroll-proportion="2.884434">
+              <caret line="203" column="9" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -43,8 +43,8 @@
       <file leaf-file-name="customapp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.931034">
-              <caret line="494" column="49" selection-start-line="494" selection-start-column="49" selection-end-line="494" selection-end-column="49" />
+            <state vertical-scroll-proportion="-4.2413793">
+              <caret line="486" column="42" selection-start-line="486" selection-start-column="42" selection-end-line="486" selection-end-column="42" />
               <folding>
                 <marker date="1461210136820" expanded="true" signature="2786:3302" placeholder="..." />
                 <marker date="1461210136820" expanded="true" signature="2903:3275" placeholder="..." />
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modal.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="modal.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/modal.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38442212">
+            <state vertical-scroll-proportion="-5.8846154">
               <caret line="33" column="61" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="61" />
               <folding />
             </state>
@@ -967,16 +967,16 @@
       <workItem from="1461120591762" duration="579000" />
       <workItem from="1461145328727" duration="4053000" />
       <workItem from="1461157739563" duration="10950000" />
-      <workItem from="1461202861459" duration="7429000" />
+      <workItem from="1461202861459" duration="7855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23011000" />
+    <option name="totallyTimeSpent" value="23437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -985,7 +985,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26022914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26022914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1341,18 +1341,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
+    <entry file="file://$PROJECT_DIR$/resources/views/modal.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="144" column="82" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="82" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.931034">
-          <caret line="494" column="49" selection-start-line="494" selection-start-column="49" selection-end-line="494" selection-end-column="49" />
+        <state vertical-scroll-proportion="-4.2413793">
+          <caret line="486" column="42" selection-start-line="486" selection-start-column="42" selection-end-line="486" selection-end-column="42" />
           <folding>
             <marker date="1461210136820" expanded="true" signature="2786:3302" placeholder="..." />
             <marker date="1461210136820" expanded="true" signature="2903:3275" placeholder="..." />
@@ -1360,10 +1360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/modal.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38442212">
-          <caret line="33" column="61" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="61" />
+        <state vertical-scroll-proportion="2.884434">
+          <caret line="203" column="9" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
           <folding />
         </state>
       </provider>
