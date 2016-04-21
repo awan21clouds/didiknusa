@@ -57,7 +57,7 @@
                                     <h3 class="box-title">Deskripsi</h3>
                                 </div>
                                 <div class="box-body">
-                                    <pre>{{$scholarship->description}}</pre>
+                                    {{$scholarship->description}}
                                 </div><!-- /.box-body -->
                             </div>
                         </div>
