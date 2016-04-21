@@ -103,6 +103,7 @@ class DonationController extends Controller
     }
 
     public function detail($id){
-        return view('donation-detail');
+//        return view('donation-detail');
+        return 'hello world!';
     }
 }
