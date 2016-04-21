@@ -99,7 +99,6 @@ $(document).ready(function(){
     insertDonation();
     loadHomeScholarship();
     loadAllScholarhip();
-    bank_show();
 });
 
 new WOW().init();
@@ -191,32 +190,6 @@ function selectBank(element){
     }
 }
 
-function bank_show(){
-    ajaxPro('GET', getBaseURL()+'bank', null, 'json', false, false, false, false, success, error, null);
-    function success(output) {
-        $('#dt-bank').DataTable({
-            //ajax : getBaseURL()+'bank',
-            data:output.data,
-            columnDefs:[{"title":"Bank","targets":0}, {"title":"No. Rekening","targets":1}],
-            columns : [{
-                "data" : "detail"
-            },{
-                "data" : "account"
-            }],
-            aLengthMenu : [[5, 10, -1], [5, 10, "All"]],
-            pageLength : 5
-        });
-    }
-    function error(jqXHR, textStatus, errorThrown) {
-        bank_show();
-    }
-
-
-
-    //$('#donation-modal').on('hidden.bs.modal', function () {
-    //    alert(1);
-    //});
-}
 
 
 function initDeadline(){
