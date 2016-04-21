@@ -19,89 +19,12 @@
                             </div><!-- /.box -->
                         </div>
                     </div>
-                    <div class="row" id="profil-content">
-                        <div class="col-md-12">
-                            <div class="box box-solid">
-                                <div class="box-footer">
-                                    <div class="row">
-                                        <a href="#tab-short-description" class="small-box-footer" data-toggle="tab">
-                                            <div class="col-sm-3 col-xs-6 border-right">
-                                                <div class="description-block">
-                                                    <h5 class="description-header"><i class="fa fa-th-list" style="font-size: 30px;"></i></h5>
-                                                    <span class="description-text">DESKRIPSI SINGKAT</span>
-                                                </div><!-- /.description-block -->
-                                            </div><!-- /.col -->
-                                        </a>
-                                        <a href="#tab-long-description" class="small-box-footer" data-toggle="tab">
-                                            <div class="col-sm-3 col-xs-6 border-right">
-                                                <div class="description-block">
-                                                    <h5 class="description-header"><i class="fa fa-list" style="font-size: 30px;"></i></h5>
-                                                    <span class="description-text">DESKRIPSI LENGKAP</span>
-                                                </div><!-- /.description-block -->
-                                            </div><!-- /.col -->
-                                        </a>
-                                        <a href="#tab-scholarship-detail" class="small-box-footer" data-toggle="tab">
-                                            <div class="col-sm-3 col-xs-6 border-right">
-                                                <div class="description-block">
-                                                    <h1 class="description-header"><i class="fa fa-th-large" style="font-size: 30px;"></i></h1>
-                                                    <span class="description-text">DETAIL BEASISWA</span>
-                                                </div><!-- /.description-block -->
-                                            </div><!-- /.col -->
-                                        </a>
-                                        <a href="#tab-video-profil" class="small-box-footer" data-toggle="tab">
-                                            <div class="col-sm-3 col-xs-6">
-                                                <div class="description-block">
-                                                    <h5 class="description-header"><i class="fa fa-video-camera" style="font-size: 30px;"></i></h5>
-                                                    <span class="description-text">VIDEO PROFIL</span>
-                                                </div><!-- /.description-block -->
-                                            </div>
-                                        </a>
-                                    </div><!-- /.row -->
-                                </div><!-- /.box-footer -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="tab-content">
-                                <div class="tab-pane fade active in" id="tab-short-description">
-
-                                </div>
-                                <div class="tab-pane fade" id="tab-long-description">
-                                    <div class="box box-solid">
-                                        <div class="box-header with-border">
-                                            <h3 class="box-title">Deskripsi Lengkap</h3>
-                                        </div>
-                                        <div class="box-body">
-                                            {{$scholarship->long_description}}
-                                        </div><!-- /.box-body -->
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="tab-scholarship-detail">
-
-                                </div>
-                                <div class="tab-pane fade" id="tab-video-profil">
-                                    <div class="box box-solid">
-                                        <div class="box-header with-border">
-                                            <h3 class="box-title">Profil Video</h3>
-                                        </div>
-                                        <div class="box-body">
-                                            <div class="embed-responsive embed-responsive-16by9">
-                                                {{--{{$scholarship->video}}--}}
-                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fRh_vgS2dFE" frameborder="0" allowfullscreen></iframe>
-                                            </div>
-                                        </div><!-- /.box-body -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="row">
                         <div class="col-md-12">
                             <div class="box box-solid">
                                 <div class="box-header with-border">
-                                    <h3 class="box-title">Detail Beasiswa</h3>
+                                    <h3 class="box-title">Detail Dana Yang Dibutuhkan</h3>
                                 </div>
                                 <div class="box-body no-padding">
                                     <table class="table table-bordered table-responsive">
