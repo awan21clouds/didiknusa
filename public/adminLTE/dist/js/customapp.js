@@ -117,9 +117,8 @@ function disableButton(){
         var progress = parseFloat($(this).html().replace(/\%/g,'').trim());
         var currentDate = new Date();
         var deadline = new Date($(this).attr('alt'));
-        alert(currentDate+" "+deadline+" "+(currentDate>deadline));
 
-        if(progress >= 100){
+        if((progress >= 100) || (currentDate>deadline)){
             $(this).parent().parent().find('.btn-success').attr('disabled', true);
         }
     });
