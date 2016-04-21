@@ -81,9 +81,6 @@
                         <label>Token</label>
                         <input type="text" name="_token" value="{{csrf_token()}}" class="form-control" placeholder="Ketik nama">
                     </div>
-                    <div class="form-group">
-                        <table id="dt-bank"  class="table table-bordered table-striped" width="100%"></table>
-                    </div>
                     <div class="form-group hide">
                         <label>Scholarship ID</label>
                         <input type="text" name="scholarship_id" class="form-control" placeholder="Masukan total donasi"/>
