@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="287b53cf-0f8e-43da-b3a2-401e366cef3c" name="Default" comment="K">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/donation-detail.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DonationController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DonationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
     </list>
     <ignored path="didikbangsaGit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66589326">
+            <state vertical-scroll-proportion="-11.038462">
               <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
               <folding />
             </state>
@@ -86,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="donation-detail.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="donation-detail.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/donation-detail.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="-5.7447796">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -1026,12 +1024,12 @@
       <workItem from="1461120591762" duration="579000" />
       <workItem from="1461145328727" duration="4053000" />
       <workItem from="1461157739563" duration="10950000" />
-      <workItem from="1461202861459" duration="12759000" />
+      <workItem from="1461202861459" duration="12902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28341000" />
+    <option name="totallyTimeSpent" value="28484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1418,6 +1416,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.038462">
+          <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DonationController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.692307">
@@ -1428,16 +1434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/donation-detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-5.7447796">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66589326">
-          <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
           <folding />
         </state>
       </provider>
