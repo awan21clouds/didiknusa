@@ -270,7 +270,7 @@ function verifyTransaction(i){
     });
 
     function success(output) {
-        insertTransactionByConfirm(CSRF_TOKEN);
+        insertTransactionByConfirm(CSRF_TOKEN, random);
         dt_admin_donation.ajax.reload();
         notify('info', 'Verifikasi Berhasil!', 'Silahkan tunggu proses verifikasi dari admin', 'glyphicon glyphicon-warning-sign');
     }
@@ -308,7 +308,7 @@ function insertCreditByConfirm(formData){
     }
 }
 
-function insertTransactionByConfirm(token){
+function insertTransactionByConfirm(token, random){
     var formData = new FormData();
     var d = new Date();
     var transaction_id = '115'+d.getFullYear() + concatString((d.getMonth() + 1)) + concatString(d.getDate()) + concatString(d.getHours()) + concatString(d.getMinutes()) + concatString(d.getSeconds()) + (Math.floor(Math.random() * (99 - 10) + 10));
