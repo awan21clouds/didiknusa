@@ -115,7 +115,10 @@ function disableButton(){
     //var progress = .html();
     $('.progress-bar-green').each(function(i, v){
         var progress = parseFloat($(this).html().replace(/\%/g,'').trim());
-        alert($(this).attr('alt'));
+        var currentDate = new Date();
+        var deadline = new Date($(this).attr('alt'));
+        alert(currentDate+" "+deadline+" "+(currentDate>deadline));
+
         if(progress >= 100){
             $(this).parent().parent().find('.btn-success').attr('disabled', true);
         }
