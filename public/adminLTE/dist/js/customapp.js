@@ -115,7 +115,9 @@ function disableButton(){
     //var progress = .html();
     $('.progress-bar-green').each(function(i, v){
         var progress = parseFloat($(this).html().replace(/\%/g,'').trim());
-        alert(progress);
+        if(progress >= 100){
+            alert($(this).parent().parent().html());
+        }
     });
 
 }

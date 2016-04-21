@@ -43,7 +43,7 @@
                                 <div class="progress-bar progress-bar-green" style="width: {{ round((($scholarship->donation_total/$scholarship->scholarship_target)*100),2).'%' }};">{{ round((($scholarship->donation_total/$scholarship->scholarship_target)*100),2) }}%</div>
                             </div>
                             <div class="clearfix">
-                                <small class="pull-left">@if(Session::has('member'))<a href="javascript:;" onclick="scholarshipDonation(this);" class="btn btn-success btn-sm" alt="{{$scholarship->scholarship_id}}" @if(round((($scholarship->donation_total/$scholarship->scholarship_target)*100),2)>=100) disabled @endif>Berikan Beasiswa</a>@endif</small>
+                                <small class="pull-left">@if(Session::has('member'))<a href="javascript:;" onclick="scholarshipDonation(this);" class="btn btn-success btn-sm" alt="{{$scholarship->scholarship_id}}">Berikan Beasiswa</a>@endif</small>
                                 <small class="pull-right"><i class="fa fa-clock-o"></i> <span data-livestamp="{{ $scholarship->created }}"></span></small>
                             </div>
                         </div><!-- /.col -->
