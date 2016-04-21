@@ -413,10 +413,7 @@ function insertScholarship(){
             formData.append('scholarship_id', scholarship_id);
             formData.append('member_id', $('#member_id').html());
             formData.append('created', d.getFullYear() +'-'+ concatString((d.getMonth() + 1)) +'-'+ concatString(d.getDate()) +' '+ concatString(d.getHours()) +':'+ concatString(d.getMinutes()) +':'+ concatString(d.getSeconds()));
-            //formData.set('deadline', toMySQLDate($(this).find('input[name=deadline]').val()));
             formData.set('deadline', toMySQLDate(formData.get('deadline')));
-            console.log(formData.get('deadline'));
-            console.log(toMySQLDate(formData.get('deadline')));
 
             ajaxPro('POST', getBaseURL()+'scholarship', formData, 'html', false, false, false, false, success, error, null);
             function success(output) {
