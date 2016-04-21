@@ -20,13 +20,9 @@
                 <div class="text-center">
                     <a href="{{ url('/') }}/home" class="animsition-link">Masuk Lagi</a>
                 </div>
-                <div class="navbar-header">
-                    <a href="{{ url('/') }}/home" class="navbar-brand text-center">
-                        <b>DidikBangsa</b>.com
-                    </a>
-                </div>
                 <div class="lockscreen-footer text-center">
                     Copyright &copy; 2016<br>
+                    <b>DidikBangsa</b>.com
                 </div>
             </div><!-- /.center -->
         </section><!-- /.content -->
