@@ -100,7 +100,6 @@ $(document).ready(function(){
     loadHomeScholarship();
     loadAllScholarhip();
     bank_show();
-    disableButton();
 });
 
 new WOW().init();
@@ -260,6 +259,7 @@ function loadHomeScholarship(){
     $("#home-scholarship").load(getBaseURL()+'scholarship/homeScholarship', function(){
         initReadmore();
         scholarshipRupiah();
+        disableButton();
     });
 }
 
@@ -268,6 +268,7 @@ function loadAllScholarhip(){
         initReadmore();
         initPaginator();
         scholarshipRupiah();
+        disableButton();
     });
 }
 
