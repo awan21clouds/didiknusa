@@ -218,9 +218,9 @@ function adminDonation(){
             {"title":"","targets":3}
         ],
         columns : [{
-            "data" : "transaction_member_id",
+            "data" : "student_name",
             "render" : function (data, type, row) {
-                return '<a href="'+getBaseURL()+'scholarship/detail/'+data+'">'+data+'</a>';
+                return '<a href="'+getBaseURL()+'scholarship/detail/'+row['scholarship_id']+'">'+data+'</a>';
             }
         },{
             "data" : "total",
@@ -228,7 +228,7 @@ function adminDonation(){
                 return toRp(data);
             }
         },{
-            "data" : "random"
+            "data" : "transaction_status"
         },{
             "data" : "transaction_id",
             "render" : function (data, type, row) {
@@ -256,34 +256,34 @@ function verifyTransaction(i){
     var member_id = temp[2];
     var CSRF_TOKEN = $("meta[name='token']").attr('content');
     console.log(member_id);
-    //$.ajax({
-    //    url: getBaseURL()+'transaction/confirm/'+transaction_id,
-    //    type: 'PUT',
-    //    data: {
-    //        _token: CSRF_TOKEN,
-    //        transaction_id:transaction_id,
-    //        transaction_status_id: 2
-    //    },
-    //    dataType: 'HTML',
-    //    success: success,
-    //    error: error
-    //});
-    //
-    //function success(output) {
-    //    insertTransactionByConfirm(CSRF_TOKEN, random, member_id);
-    //    dt_admin_donation.ajax.reload();
-    //    notify('info', 'Verifikasi Berhasil!', 'Silahkan tunggu proses verifikasi dari admin', 'glyphicon glyphicon-warning-sign');
-    //}
-    //function error(jqXHR, textStatus, errorThrown) {
-    //    alert('An error occurred... Look at the console (F12 or Ctrl+Shift+I, Console tab) for more information!');
-    //    $('#result').html('<p>status code: '+jqXHR.status+'</p><p>errorThrown: ' + errorThrown + '</p><p>jqXHR.responseText:</p><div>'+jqXHR.responseText + '</div>');
-    //    console.log('jqXHR:');
-    //    console.log(jqXHR);
-    //    console.log('textStatus:');
-    //    console.log(textStatus);
-    //    console.log('errorThrown:');
-    //    console.log(errorThrown);
-    //}
+    $.ajax({
+        url: getBaseURL()+'transaction/confirm/'+transaction_id,
+        type: 'PUT',
+        data: {
+            _token: CSRF_TOKEN,
+            transaction_id:transaction_id,
+            transaction_status_id: 2
+        },
+        dataType: 'HTML',
+        success: success,
+        error: error
+    });
+
+    function success(output) {
+        insertTransactionByConfirm(CSRF_TOKEN, random, member_id);
+        dt_admin_donation.ajax.reload();
+        notify('info', 'Verifikasi Berhasil!', 'Silahkan tunggu proses verifikasi dari admin', 'glyphicon glyphicon-warning-sign');
+    }
+    function error(jqXHR, textStatus, errorThrown) {
+        alert('An error occurred... Look at the console (F12 or Ctrl+Shift+I, Console tab) for more information!');
+        $('#result').html('<p>status code: '+jqXHR.status+'</p><p>errorThrown: ' + errorThrown + '</p><p>jqXHR.responseText:</p><div>'+jqXHR.responseText + '</div>');
+        console.log('jqXHR:');
+        console.log(jqXHR);
+        console.log('textStatus:');
+        console.log(textStatus);
+        console.log('errorThrown:');
+        console.log(errorThrown);
+    }
 }
 
 function insertCreditByConfirm(formData){
