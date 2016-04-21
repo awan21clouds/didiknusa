@@ -20,8 +20,8 @@
                 <div class="text-center">
                     <a href="{{ url('/') }}/home" class="animsition-link">Masuk Lagi</a>
                 </div>
-                <div class="navbar-header text-center">
-                    <a href="{{ url('/') }}/home" class="navbar-brand">
+                <div class="navbar-header">
+                    <a href="{{ url('/') }}/home" class="navbar-brand text-center">
                         <b>DidikBangsa</b>.com
                     </a>
                 </div>
