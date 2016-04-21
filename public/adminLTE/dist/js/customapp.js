@@ -120,9 +120,9 @@ function disableButton(){
 
         if((progress >= 100) || (currentDate>deadline)){
             $(this).parent().parent().find('.btn-success').attr('disabled', true);
+            $("#DateCountdown").TimeCircles().stop();
         }
     });
-
 }
 
 function initPaginator(){
