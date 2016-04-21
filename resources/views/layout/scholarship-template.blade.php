@@ -27,7 +27,7 @@
                             </span><!-- /.username -->
                             <span class="readmore">
                                 {{--{{ $scholarship->scholarship_target }} <br/>--}}
-                                {{ $scholarship->short_description }}
+                                {{ $scholarship->description }}
                              </span>
                     </div><!-- /.box-comment -->
                 </div><!-- /.box-footer -->

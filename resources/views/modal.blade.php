@@ -34,12 +34,8 @@
                             <input type="text" name="deadline" class="form-control" placeholder="Masukkan link video profil siswa" readonly/>
                         </div>
                         <div class="form-group">
-                            <label>Deskripsi Singkat</label>
-                            <input type="text" name="short_description" class="form-control" placeholder="Deskripsikan profil siswa secara singkat"/>
-                        </div>
-                        <div class="form-group">
-                            <label>Deskripsi Lengkap</label>
-                            <textarea name="long_description" class="form-control" style="resize: none;" placeholder="Deskripsikan profil siswa secara lengkap"></textarea>
+                            <label>Deskripsi</label>
+                            <textarea name="description" class="form-control" style="resize: none;" placeholder="Deskripsikan profil siswa"></textarea>
                         </div>
                     </div>
                     <div class="modal-header">
