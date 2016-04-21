@@ -23,6 +23,15 @@
                 <div class="lockscreen-footer text-center">
                     Copyright &copy; 2016<br>
                 </div>
+                <div class="navbar-header">
+                    <a href="{{ url('/') }}/home" class="navbar-brand">
+                        {{--<img src="../adminLTE/dist/img/logo.png" class="user-image img-sm" id="brand-logo"  alt="User Image">--}}
+                        <b>DidikBangsa</b>.com
+                    </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
             </div><!-- /.center -->
 
         </section><!-- /.content -->
