@@ -54,7 +54,7 @@
                         <div class="col-md-12">
                             <div class="box box-solid">
                                 <div class="box-header with-border">
-                                    <h3 class="box-title">Deskripsi Singkat</h3>
+                                    <h3 class="box-title">Deskripsi</h3>
                                 </div>
                                 <div class="box-body">
                                     {{$scholarship->short_description}}
