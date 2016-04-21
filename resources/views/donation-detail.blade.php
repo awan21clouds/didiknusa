@@ -13,7 +13,7 @@
                 <div class="lockscreen-name text-center">Donasi yang perlu anda kirimkan sebesar : </div>
                 <br>
                 <div class="lockscreen-logo">
-                    <a href="javascript:;"><b class="scholarship-currency">{{$scholarship->total}}</b></a>
+                    <a href="javascript:;"><b class="scholarship-currency">{{$donation->total}}</b></a>
                 </div>
                 <div class="help-block text-center">
                     Pastikan anda telah mengirimkan dan melakukan konfirmasi sebelum batas waktu pengumpulan dana.
