@@ -20,8 +20,8 @@ class Credit extends Model
 //            ->orderBy('transaction.created', 'desc')
 //            ->get();
         $transaction = DB::table('credit')
-//            ->join('transaction', 'credit.transaction_id', '=', 'transaction.transaction_id')
-            ->select('credit.*')
+            ->join('transaction', 'credit.transaction_id', '=', 'transaction.transaction_id')
+            ->select('credit.*', 'transaction.*')
 //            ->where('transaction.member_id', '=', $id)
 //            ->orderBy('transaction.created', 'desc')
             ->get();
