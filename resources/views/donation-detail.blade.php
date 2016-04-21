@@ -4,20 +4,7 @@
     <div class="container">
         <!-- Main content -->
         <section class="content">
-            a
-            <div class="row wow animated fadeInRight">
-                <div class="col-md-8 wow animated bounceInUp">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="box box-solid">
-                                <div class="box-body">
-
-                                </div><!-- /.box-body -->
-                            </div><!-- /.box -->
-                        </div>
-                    </div>
-                </div>
-            </div>
+            A
             @if(!Session::has('member'))
                 @include('layout.login')
             @endif
