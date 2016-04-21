@@ -71,6 +71,8 @@ Route::put('/transaction/confirm/{id}', 'TransactionController@confirm');
 
 Route::get('/locate/getAllRowsForScholarship', 'LocateController@getAllRowsForScholarship');
 
+Route::get('/donation-detail/{id}', 'DonationController@detail');
+
 Route::group(['middlewareGroups' => ['web']], function(){
     Route::resource('member', 'MemberController');
     Route::resource('locate', 'LocateController');
