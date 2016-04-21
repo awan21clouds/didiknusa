@@ -65,14 +65,7 @@
                         <div class="col-md-12">
                             <div class="tab-content">
                                 <div class="tab-pane fade active in" id="tab-short-description">
-                                    <div class="box box-solid">
-                                        <div class="box-header with-border">
-                                            <h3 class="box-title">Deskripsi Singkat</h3>
-                                        </div>
-                                        <div class="box-body">
-                                            {{$scholarship->short_description}}
-                                        </div><!-- /.box-body -->
-                                    </div>
+
                                 </div>
                                 <div class="tab-pane fade" id="tab-long-description">
                                     <div class="box box-solid">
@@ -85,31 +78,7 @@
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="tab-scholarship-detail">
-                                    <div class="box box-solid">
-                                        <div class="box-header with-border">
-                                            <h3 class="box-title">Detail Beasiswa</h3>
-                                        </div>
-                                        <div class="box-body no-padding">
-                                            <table class="table table-bordered table-responsive">
-                                                @if(count($variables))
-                                                    <div class="box-body no-padding">
-                                                        <?php $temp = 0;?>
-                                                        @foreach ($variables as $variable)
-                                                            <tr>
-                                                                <th style="width:50%">{{$variable->label}}</th>
-                                                                <td class="scholarship-currency">{{$variable->total}}</td>
-                                                            </tr>
-                                                            <?php $temp += $variable->total;?>
-                                                        @endforeach
-                                                        <tr>
-                                                            <th style="width:50%">Total</th>
-                                                            <td class="scholarship-currency">{{$temp}}</td>
-                                                        </tr>
-                                                    </div><!-- /.box-body -->
-                                                @endif
-                                            </table>
-                                        </div><!-- /.box-body -->
-                                    </div>
+
                                 </div>
                                 <div class="tab-pane fade" id="tab-video-profil">
                                     <div class="box box-solid">
@@ -124,6 +93,49 @@
                                         </div><!-- /.box-body -->
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="box box-solid">
+                                <div class="box-header with-border">
+                                    <h3 class="box-title">Detail Beasiswa</h3>
+                                </div>
+                                <div class="box-body no-padding">
+                                    <table class="table table-bordered table-responsive">
+                                        @if(count($variables))
+                                            <div class="box-body no-padding">
+                                                <?php $temp = 0;?>
+                                                @foreach ($variables as $variable)
+                                                    <tr>
+                                                        <th style="width:50%">{{$variable->label}}</th>
+                                                        <td class="scholarship-currency">{{$variable->total}}</td>
+                                                    </tr>
+                                                    <?php $temp += $variable->total;?>
+                                                @endforeach
+                                                <tr>
+                                                    <th style="width:50%">Total</th>
+                                                    <td class="scholarship-currency">{{$temp}}</td>
+                                                </tr>
+                                            </div><!-- /.box-body -->
+                                        @endif
+                                    </table>
+                                </div><!-- /.box-body -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="box box-solid">
+                                <div class="box-header with-border">
+                                    <h3 class="box-title">Deskripsi Singkat</h3>
+                                </div>
+                                <div class="box-body">
+                                    {{$scholarship->short_description}}
+                                </div><!-- /.box-body -->
                             </div>
                         </div>
                     </div>
