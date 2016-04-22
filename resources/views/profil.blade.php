@@ -37,8 +37,8 @@
                         <div class="box-body no-padding" id="profil">
                             <div class="col-sm-6 border-right">
                                 <dl>
-                                    <dt>ID</dt>
-                                    <dd alt="member_id">1242016040907543682</dd>
+                                    {{--<dt>ID</dt>--}}
+                                    {{--<dd alt="member_id"></dd>--}}
                                     <dt>Nama</dt>
                                     <dd alt="name">John</dd>
                                     <dt>Telepon</dt>

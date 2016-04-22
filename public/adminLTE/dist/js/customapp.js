@@ -190,8 +190,6 @@ function selectBank(element){
     }
 }
 
-
-
 function initDeadline(){
     $('input[name="deadline"]').daterangepicker({
         singleDatePicker: true,
@@ -240,12 +238,6 @@ function loadHomeScholarship(){
         scholarshipRupiah();
         disableButton();
     });
-
-    //$("#home-scholarship").load(getBaseURL()+'homeScholarship', function(){
-    //    initReadmore();
-    //    scholarshipRupiah();
-    //    disableButton();
-    //});
 }
 
 function loadAllScholarhip(){

@@ -100,7 +100,7 @@ function getProfil(){
         dataType: 'json',
         success: function(output){
             var data = output.data;
-            $('#profil').find('dd[alt=member_id]').html(data.member_id);
+            //$('#profil').find('dd[alt=member_id]').html(data.member_id);
             $('#profil').find('dd[alt=name]').html(data.name);
             $('#profil').find('dd[alt=phone]').html(data.phone);
             $('#profil').find('dd[alt=email]').html(data.email);
