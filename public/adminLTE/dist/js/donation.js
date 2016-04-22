@@ -91,7 +91,7 @@ function donation(){
         return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
             '<tr>'+
             '<td>Tanggal Donasi</td>'+
-            '<td>'+d.transaction.created+'</td>'+
+            '<td>'+d.transaction_id+'</td>'+
             '</tr>'+
             '</table>';
         //return 'Full name: <br>Salary:  child row can contain any data you wish, including links, images, inner tables etc.';
