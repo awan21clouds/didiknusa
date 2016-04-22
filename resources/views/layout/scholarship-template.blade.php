@@ -6,7 +6,7 @@
                     <div class="user-block">
                         <img class="img-circle" src="{{ url('/') }}/{{ $scholarship->photo }}" alt="user image">
                         <span class="username"><a href="#">{{ $scholarship->name }}</a></span>
-                        <span class="description created">{{ $scholarship->created }}</span>
+                        <span class="description created">{{ $scholarship->scholarship_created }}</span>
                     </div><!-- /.user-block -->
                     <div class="box-tools">
                         <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
