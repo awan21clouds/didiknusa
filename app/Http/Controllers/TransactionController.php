@@ -108,8 +108,8 @@ class TransactionController extends Controller
     public function remove($id)
     {
         echo $id;
-        $transaction = Transaction();
-        $transaction->remove($id);
+        $transaction = Transaction::where('transaction_id', $id);
+        $transaction->delete();
     }
 
     public function confirm(Request $request, $id){
