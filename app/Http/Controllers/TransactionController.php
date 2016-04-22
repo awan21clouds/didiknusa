@@ -105,11 +105,11 @@ class TransactionController extends Controller
         $transaction->delete();
     }
 
-    public function delete($id)
+    public function remove($id)
     {
-        print_r($id);
-        $transaction = Transaction();
-        $transaction->delete($id);
+        echo $id;
+//        $transaction = Transaction();
+//        $transaction->delete($id);
     }
 
     public function confirm(Request $request, $id){
