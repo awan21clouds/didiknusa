@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="287b53cf-0f8e-43da-b3a2-401e366cef3c" name="Default" comment="K">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/adminLTE/dist/js/donation.js" afterPath="$PROJECT_DIR$/public/adminLTE/dist/js/donation.js" />
     </list>
     <ignored path="didikbangsaGit.iws" />
@@ -33,9 +34,12 @@
       <file leaf-file-name="donation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4787736">
-              <caret line="43" column="215" selection-start-line="43" selection-start-column="215" selection-end-line="43" selection-end-column="215" />
-              <folding />
+            <state vertical-scroll-proportion="0.31839624">
+              <caret line="95" column="68" selection-start-line="95" selection-start-column="68" selection-end-line="95" selection-end-column="68" />
+              <folding>
+                <marker date="1461311554672" expanded="true" signature="3339:4123" placeholder="..." />
+                <marker date="1461311554672" expanded="true" signature="3425:3443" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1058,12 +1062,12 @@
       <workItem from="1461145328727" duration="4053000" />
       <workItem from="1461157739563" duration="10950000" />
       <workItem from="1461202861459" duration="28736000" />
-      <workItem from="1461288415005" duration="13016000" />
+      <workItem from="1461288415005" duration="13310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57334000" />
+    <option name="totallyTimeSpent" value="57628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1535,9 +1539,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4787736">
-          <caret line="43" column="215" selection-start-line="43" selection-start-column="215" selection-end-line="43" selection-end-column="215" />
-          <folding />
+        <state vertical-scroll-proportion="0.31839624">
+          <caret line="95" column="68" selection-start-line="95" selection-start-column="68" selection-end-line="95" selection-end-column="68" />
+          <folding>
+            <marker date="1461311554672" expanded="true" signature="3339:4123" placeholder="..." />
+            <marker date="1461311554672" expanded="true" signature="3425:3443" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
