@@ -38,7 +38,7 @@ function donation(){
                 html += '<button class="btn btn-box-tool dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-wrench"></i></button>';
                 html += '<ul class="dropdown-menu" role="menu">';
                 html += '<li><a href="javascript:;" class="details-control"><i class="fa fa-search"></i> detail</a></li>';
-                html += '<li><a href="#" value="' + data+'+'+(row['total']+row['random'])+ '" onclick="confirmation(this);" '+disabled+'><i class="fa fa-pencil-square-o"></i> Konfirmasi</a></li>';
+                html += '<li><a href="javascript:;" alt="' + data+'+'+(row['total']+row['random'])+ '" onclick="confirmation(this);" '+disabled+'><i class="fa fa-pencil-square-o"></i> Konfirmasi</a></li>';
                 html += '<li class="divider"></li>';
                 html += '<li><a href="#">Action</a></li>';
                 html += '</ul>';
@@ -94,7 +94,8 @@ function donation(){
 
 
 function confirmation(i){
-    var v = $(i).val().split('+');
+    var v = $(i).attr('alt').split('+');
+    //var v = $(i).val().split('+');
     $('#form-confirmation').find('input[name=transaction_id]').val(v[0]);
     $('#form-confirmation').find('#bill').val(toRp2(v[1]));
     $('#tab-new-trigger').click();
