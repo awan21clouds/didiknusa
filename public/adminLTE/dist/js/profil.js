@@ -105,7 +105,7 @@ function getProfil(){
             $('#profil').find('dd[alt=phone]').html(data.phone);
             $('#profil').find('dd[alt=email]').html(data.email);
             $('#profil').find('dd[alt=biography]').html(data.biography);
-            $('#profil').find('dd[alt=register_date]').html(data.register_date);
+            $('#profil').find('dd[alt=register_date]').html(data.member_register_date);
             profilFileInput(data.photo);
         }
     });
