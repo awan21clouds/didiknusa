@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="287b53cf-0f8e-43da-b3a2-401e366cef3c" name="Default" comment="K">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Member.php" afterPath="$PROJECT_DIR$/app/Member.php" />
     </list>
     <ignored path="didikbangsaGit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/app/Member.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.46984926">
-              <caret line="23" column="91" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="52" />
               <folding>
                 <element signature="e#22#29#0#PHP" expanded="true" />
               </folding>
@@ -1060,12 +1059,12 @@
       <workItem from="1461145328727" duration="4053000" />
       <workItem from="1461157739563" duration="10950000" />
       <workItem from="1461202861459" duration="28736000" />
-      <workItem from="1461288415005" duration="6751000" />
+      <workItem from="1461288415005" duration="6826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51069000" />
+    <option name="totallyTimeSpent" value="51144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1533,7 +1532,7 @@
     <entry file="file://$PROJECT_DIR$/app/Member.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46984926">
-          <caret line="23" column="91" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="52" />
           <folding>
             <element signature="e#22#29#0#PHP" expanded="true" />
           </folding>
