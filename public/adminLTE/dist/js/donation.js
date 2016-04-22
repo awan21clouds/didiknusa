@@ -90,7 +90,7 @@ function donation(){
     function format ( d ) {
         return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
             '<tr>'+
-            '<td width="100">Tanggal Donasi </td>'+
+            '<td width="300">Tanggal Donasi </td>'+
             '<td>'+d.transaction_id+'</td>'+
             '</tr>'+
             '<tr>'+
