@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="287b53cf-0f8e-43da-b3a2-401e366cef3c" name="Default" comment="K">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/MemberController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/MemberController.php" />
-    </list>
+    <list default="true" id="287b53cf-0f8e-43da-b3a2-401e366cef3c" name="Default" comment="K" />
     <ignored path="didikbangsaGit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="531" column="2" selection-start-line="531" selection-start-column="2" selection-end-line="531" selection-end-column="2" />
+              <caret line="527" column="29" selection-start-line="527" selection-start-column="9" selection-end-line="527" selection-end-column="29" />
               <folding>
                 <marker date="1461295827638" expanded="true" signature="2786:3302" placeholder="..." />
                 <marker date="1461295827638" expanded="true" signature="2903:3275" placeholder="..." />
@@ -97,8 +94,8 @@
       <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5990566">
-              <caret line="101" column="42" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.7193396">
+              <caret line="113" column="38" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -179,8 +176,8 @@
         <option value="$PROJECT_DIR$/resources/views/home-scholarship.blade.php" />
         <option value="$PROJECT_DIR$/public/adminLTE/dist/js/profil.js" />
         <option value="$PROJECT_DIR$/app/Member.php" />
-        <option value="$PROJECT_DIR$/public/adminLTE/dist/js/home.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MemberController.php" />
+        <option value="$PROJECT_DIR$/public/adminLTE/dist/js/home.js" />
       </list>
     </option>
   </component>
@@ -1059,12 +1056,12 @@
       <workItem from="1461145328727" duration="4053000" />
       <workItem from="1461157739563" duration="10950000" />
       <workItem from="1461202861459" duration="28736000" />
-      <workItem from="1461288415005" duration="10159000" />
+      <workItem from="1461288415005" duration="10290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54477000" />
+    <option name="totallyTimeSpent" value="54608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1513,17 +1510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="531" column="2" selection-start-line="531" selection-start-column="2" selection-end-line="531" selection-end-column="2" />
-          <folding>
-            <marker date="1461295827638" expanded="true" signature="2786:3302" placeholder="..." />
-            <marker date="1461295827638" expanded="true" signature="2903:3275" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MemberController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.807693">
@@ -1532,10 +1518,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/customapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="527" column="29" selection-start-line="527" selection-start-column="9" selection-end-line="527" selection-end-column="29" />
+          <folding>
+            <marker date="1461295827638" expanded="true" signature="2786:3302" placeholder="..." />
+            <marker date="1461295827638" expanded="true" signature="2903:3275" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5990566">
-          <caret line="101" column="42" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.7193396">
+          <caret line="113" column="38" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
           <folding />
         </state>
       </provider>
