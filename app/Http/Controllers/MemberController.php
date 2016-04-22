@@ -72,8 +72,9 @@ class MemberController extends Controller
      */
     public function show($id)
     {
-        $member = Member::where('member_id', $id)->first();
-        return response()->json(['data' => $member]);
+
+        $member = new Member();
+        return response()->json(['data' => $member->getRowsByUser($id)]);
     }
 
     /**
