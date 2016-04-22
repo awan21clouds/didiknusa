@@ -34,7 +34,7 @@ function donation(){
                 }
 
                 var html = '';
-                html += '<div class="btn-group">';
+                html += '<div class="btn-group text-center">';
                 html += '<button class="btn btn-box-tool dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-wrench"></i></button>';
                 html += '<ul class="dropdown-menu" role="menu">';
                 html += '<li><a href="#">Action</a></li>';
