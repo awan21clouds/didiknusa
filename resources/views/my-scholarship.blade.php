@@ -5,9 +5,9 @@
 
     <div class="row wow animated bounceIn">
         <div class="col-lg-12">
-            @if(count($scholarships))
+            {{--@if(count($scholarships))--}}
                 <ul id="pagination" class="pagination"></ul>
-            @endif
+            {{--@endif--}}
         </div>
     </div>
 </div>
