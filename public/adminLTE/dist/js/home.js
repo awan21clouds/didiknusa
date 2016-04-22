@@ -97,6 +97,7 @@ function registration(){
             formData.append('member_id', member_id);
             formData.append('status', 0);
             formData.append('location_id', 0);
+            formData.append('biography', '-');
 			formData.append('photo', 'adminLTE/dist/img/default.png');			
             ajaxPro('POST', getBaseURL()+'member', formData, 'html', false, false, false, false, success, error, null);
             function success(output) {
