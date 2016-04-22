@@ -20,10 +20,9 @@ class Member extends Model
 
     public function login($email, $password){
         $member = DB::table('member')
-            ->select('member.*', DB::raw('(DATE_FORMAT(member.regiter_date, "%T %d-%m-%Y")) as member_register_date'))
-            ->groupBy('member.member_id')
-            ->where('member.email', '=', $email)
-            ->where('member.password', '=', $password)
+            ->select('*', DB::raw('(DATE_FORMAT(member.regiter_date, "%T %d-%m-%Y")) as member_register_date'))
+            ->where('email', '=', $email)
+            ->where('password', '=', $password)
             ->first();
         return $member;
     }

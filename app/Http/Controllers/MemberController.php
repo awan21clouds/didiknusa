@@ -140,10 +140,10 @@ class MemberController extends Controller
 //        $member = Member::where('email', '=', Input::get('email'))
 //                    ->Where('password', '=', md5(Input::get('password')))->first();
         $member = new Member();
-        $member = $member->login(Input::get('email'), md5(Input::get('password')));
-        if(count($member)){
-            Session::put('member', $member);
-            return response()->json(['status' => $member->status]);
+        $logged = $member->login(Input::get('email'), md5(Input::get('password')));
+        if(count($logged)){
+            Session::put('member', $logged);
+            return response()->json(['status' => $logged->status]);
         }else{
             return response()->json(['status' => -1]);
         }
