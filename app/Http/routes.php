@@ -11,11 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return redirect('/home');
-});
+//Route::get('/', function () {
+//    return redirect('/home');
+//});
 
 Route::get('/home', 'Home@index');
+Route::get('/', 'Home@index');
 
 
 Route::get('/member', 'MemberController@index');
@@ -63,6 +64,7 @@ Route::get('/scholarship/detail/{id}', 'ScholarshipController@detail');
 Route::get('/scholarship-detail/{id}', 'ScholarshipController@detail');
 Route::get('/scholarship/getThree', 'ScholarshipController@getThree');
 Route::get('/scholarship/homeScholarship', 'ScholarshipController@homeScholarship');
+Route::get('/homeScholarship', 'ScholarshipController@homeScholarship');
 Route::get('/scholarship/allScholarship', 'ScholarshipController@allScholarship');
 Route::get('/scholarship/allScholarshipJson', 'ScholarshipController@allScholarshipJson');
 

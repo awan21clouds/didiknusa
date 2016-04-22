@@ -240,6 +240,12 @@ function loadHomeScholarship(){
         scholarshipRupiah();
         disableButton();
     });
+
+    $("#home-scholarship").load(getBaseURL()+'homeScholarship', function(){
+        initReadmore();
+        scholarshipRupiah();
+        disableButton();
+    });
 }
 
 function loadAllScholarhip(){
