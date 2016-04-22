@@ -46,7 +46,7 @@ function donation(){
                 //html += '<center><div class="btn-group">';
                 //html += '<button type="button" class="details-control btn btn-primary"></button>';
                 //html += '<button type="button" class="btn btn-warning" ></button>';
-                //html += '<button type="button" class="btn btn-danger" value="' + data + '" onclick="deleteTransaction(this);" '+disabled+'></button>';
+                html += '<button type="button" class="btn btn-danger" value="' + data + '" onclick="deleteTransaction(this);" '+disabled+'></button>';
                 //html += '</div></center>';
                 return html;
             }
@@ -117,9 +117,7 @@ function confirmation(i){
 
 function deleteTransaction(i){
     //var transaction_id = $(i).val();
-
     var transaction_id = $(i).attr('alt');
-    console.log(transaction_id);
     var CSRF_TOKEN = $("meta[name='token']").attr('content');
     $.ajax({
         url: getBaseURL()+'transaction/'+transaction_id,
