@@ -40,7 +40,7 @@ function donation(){
                 html += '<li><a href="javascript:;" class="details-control"><i class="fa fa-search"></i> detail</a></li>';
                 html += '<li><a href="javascript:;" alt="' + data+'+'+(row['total']+row['random'])+ '" onclick="confirmation(this);" class="'+disabled+'"><i class="fa fa-pencil-square-o"></i> Konfirmasi</a></li>';
                 html += '<li class="divider '+disabled+'"></li>';
-                html += '<li><a href="#" alt="' + data + '" onclick="deleteTransaction(this);" class="'+disabled+'"><i class="fa fa-trash-o"></i> Batal</a></li>';
+                html += '<li><a href="javascript:;" alt="' + data + '" onclick="deleteTransaction(this);" class="'+disabled+'"><i class="fa fa-trash-o"></i> Batal</a></li>';
                 html += '</ul>';
                 html += '</div>';
                 //html += '<center><div class="btn-group">';
@@ -88,7 +88,21 @@ function donation(){
     } );
 
     function format ( d ) {
-        return 'Full name: <br>Salary:  child row can contain any data you wish, including links, images, inner tables etc.';
+        return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
+            '<tr>'+
+            '<td>Tanggal Donasi</td>'+
+            '<td>'+d.transaction.created+'</td>'+
+            '</tr>'+
+            '<tr>'+
+            '<td>Extension number:</td>'+
+            '<td>'+d.extn+'</td>'+
+            '</tr>'+
+            '<tr>'+
+            '<td>Extra info:</td>'+
+            '<td>And any further details here (images etc)...</td>'+
+            '</tr>'+
+            '</table>';
+        //return 'Full name: <br>Salary:  child row can contain any data you wish, including links, images, inner tables etc.';
     }
 }
 
@@ -103,7 +117,7 @@ function confirmation(i){
 
 function deleteTransaction(i){
     //var transaction_id = $(i).val();
-    var transaction_id = $(i).attr('alt').split('+');
+    var transaction_id = $(i).attr('alt');
     var CSRF_TOKEN = $("meta[name='token']").attr('content');
     $.ajax({
         url: getBaseURL()+'transaction/'+transaction_id,
