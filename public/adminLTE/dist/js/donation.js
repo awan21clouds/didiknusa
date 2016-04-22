@@ -39,7 +39,7 @@ function donation(){
                 html += '<ul class="dropdown-menu" role="menu">';
                 html += '<li><a href="javascript:;" class="details-control"><i class="fa fa-search"></i> detail</a></li>';
                 html += '<li><a href="javascript:;" alt="' + data+'+'+(row['total']+row['random'])+ '" onclick="confirmation(this);" class="'+disabled+'"><i class="fa fa-pencil-square-o"></i> Konfirmasi</a></li>';
-                html += '<li class="divider"></li>';
+                html += '<li class="divider '+disabled+'"></li>';
                 html += '<li><a href="#" alt="' + data + '" onclick="deleteTransaction(this);" class="'+disabled+'"><i class="fa fa-trash-o"></i> Batal</a></li>';
                 html += '</ul>';
                 html += '</div>';
