@@ -14,6 +14,11 @@ function donation(){
             {"title":"","targets":3}
         ],
         columns : [{
+            "class":          "details-control",
+            "orderable":      false,
+            "data":           null,
+            "defaultContent": ""
+        },{
             "data" : "student_name",
             "render" : function (data, type, row) {
                 return '<a href="'+getBaseURL()+'scholarship-detail/'+row['scholarship_id']+'">'+data+'</a>';
@@ -45,6 +50,40 @@ function donation(){
         pageLength : 5
     });
 
+    var detailRows = [];
+    $('#dt-donation tbody').on( 'click', 'tr td.details-control', function () {
+        var tr = $(this).closest('tr');
+        var row = dt_donation.row( tr );
+        var idx = $.inArray( tr.attr('id'), detailRows );
+
+        if ( row.child.isShown() ) {
+            tr.removeClass( 'details' );
+            row.child.hide();
+
+            // Remove from the 'open' array
+            detailRows.splice( idx, 1 );
+        }
+        else {
+            tr.addClass( 'details' );
+            row.child( format( row.data() ) ).show();
+
+            // Add to the 'open' array
+            if ( idx === -1 ) {
+                detailRows.push( tr.attr('id') );
+            }
+        }
+    } );
+
+    // On each draw, loop over the `detailRows` array and show any child rows
+    dt_donation.on( 'draw', function () {
+        $.each( detailRows, function ( i, id ) {
+            $('#'+id+' td.details-control').trigger( 'click' );
+        } );
+    } );
+
+    function format ( d ) {
+        return 'Full name: <br>Salary:  child row can contain any data you wish, including links, images, inner tables etc.';
+    }
 }
 
 
