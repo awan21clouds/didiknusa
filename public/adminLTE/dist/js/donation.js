@@ -83,7 +83,25 @@ function donation(){
     } );
 
     function format ( d ) {
-        return 'Full name: <br>Salary:  child row can contain any data you wish, including links, images, inner tables etc.';
+        function format ( d ) {
+            // `d` is the original data object for the row
+            return '<div class="slider">'+
+                        '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
+                            '<tr>'+
+                                '<td>Full name:</td>'+
+                                '<td>'+d.student_name+'</td>'+
+                            '</tr>'+
+                            '<tr>'+
+                                '<td>Extension number:</td>'+
+                                '<td>'+d.transaction_status+'</td>'+
+                            '</tr>'+
+                            '<tr>'+
+                                '<td>Extra info:</td>'+
+                                '<td>And any further details here (images etc)...</td>'+
+                            '</tr>'+
+                        '</table>'+
+                    '</div>';
+        }
     }
 }
 
