@@ -90,16 +90,16 @@ function donation(){
     function format ( d ) {
         return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
             '<tr>'+
-            '<td>Tanggal Donasi </td>'+
+            '<td width="100">Tanggal Donasi </td>'+
             '<td>'+d.transaction_id+'</td>'+
             '</tr>'+
             '<tr>'+
             '<td>Random </td>'+
-            '<td>'+d.ramdom+'</td>'+
+            '<td>'+d.random+'</td>'+
             '</tr>'+
             '<tr>'+
             '<td>Total </td>'+
-            '<td>'+(d.ramdom + d.total)+'</td>'+
+            '<td>'+(d.random + d.total)+'</td>'+
             '</tr>'+
         '</table>';
         //return 'Full name: <br>Salary:  child row can contain any data you wish, including links, images, inner tables etc.';
