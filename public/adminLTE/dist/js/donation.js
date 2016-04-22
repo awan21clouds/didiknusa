@@ -14,11 +14,6 @@ function donation(){
             {"title":"","targets":3}
         ],
         columns : [{
-            "class":          "details-control",
-            "orderable":      false,
-            "data":           null,
-            "defaultContent": ""
-        },{
             "data" : "student_name",
             "render" : function (data, type, row) {
                 return '<a href="'+getBaseURL()+'scholarship-detail/'+row['scholarship_id']+'">'+data+'</a>';
