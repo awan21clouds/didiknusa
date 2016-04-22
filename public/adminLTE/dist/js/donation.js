@@ -11,7 +11,7 @@ function donation(){
             {"title":"Nama Siswa","targets":0},
             {"title":"Total Donasi","targets":1},
             {"title":"Status","targets":2},
-            {"title":"","targets":3}
+            {"title":"","targets":3, "width":5}
         ],
         columns : [{
             "data" : "student_name",
