@@ -105,6 +105,13 @@ class TransactionController extends Controller
         $transaction->delete();
     }
 
+    public function delete($id)
+    {
+        print_r($id);
+        $transaction = Transaction();
+        $transaction->delete($id);
+    }
+
     public function confirm(Request $request, $id){
         Transaction::where('transaction_id', $id)->update(
             [
