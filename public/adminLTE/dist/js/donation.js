@@ -93,14 +93,6 @@ function donation(){
             '<td>Tanggal Donasi</td>'+
             '<td>'+d.transaction.created+'</td>'+
             '</tr>'+
-            '<tr>'+
-            '<td>Extension number:</td>'+
-            '<td>'+d.extn+'</td>'+
-            '</tr>'+
-            '<tr>'+
-            '<td>Extra info:</td>'+
-            '<td>And any further details here (images etc)...</td>'+
-            '</tr>'+
             '</table>';
         //return 'Full name: <br>Salary:  child row can contain any data you wish, including links, images, inner tables etc.';
     }
