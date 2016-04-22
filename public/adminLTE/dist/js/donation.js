@@ -21,7 +21,7 @@ function donation(){
         },{
             "data" : "total",
             "render" : function (data, type, row) {
-                return toRp(data);
+                return toRp(row['total']+row['random']);
             }
         },{
             "data" : "transaction_status"
@@ -90,7 +90,7 @@ function donation(){
     function format ( d ) {
         return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
             '<tr>'+
-            '<td width="200">Tanggal Donasi </td>'+
+            '<td width="150">Tanggal Donasi</td>'+
             '<td>'+d.transaction_created+'</td>'+
             '</tr>'+
             '<tr>'+
@@ -98,7 +98,7 @@ function donation(){
             '<td>'+toRp(d.random)+'</td>'+
             '</tr>'+
             '<tr>'+
-            '<td>Total </td>'+
+            '<td>Donasi Utama</td>'+
             '<td>'+toRp(d.random + d.total)+'</td>'+
             '</tr>'+
         '</table>';
