@@ -98,7 +98,9 @@ function registration(){
             formData.append('status', 0);
             formData.append('location_id', 0);
             formData.append('biography', '-');
-			formData.append('photo', 'adminLTE/dist/img/default.png');			
+			formData.append('photo', 'adminLTE/dist/img/default.png');
+            formData.append('register_date', getCurrentDateTime());
+
             ajaxPro('POST', getBaseURL()+'member', formData, 'html', false, false, false, false, success, error, null);
             function success(output) {
                 notify('info', 'Registrasi Berhasil!', 'Silahkan masuk', 'glyphicon glyphicon-warning-sign');

@@ -46,7 +46,7 @@ class MemberController extends Controller
      */
     public function store(Request $request)
     {
-        $now = new DateTime();
+
         $member = new Member();
         $member->member_id = $request->member_id;
         $member->name= $request->name;
@@ -55,7 +55,7 @@ class MemberController extends Controller
         $member->photo = $request->photo;
         $member->biography = $request->biography;
         $member->last_login = $request->last_login;
-        $member->register_date = $now->format('Y-m-d H:i:s');
+        $member->register_date = $request->register_date;
         $member->password = md5($request->password);
         $member->status = $request->status;
         $member->location_id = $request->location_id;
