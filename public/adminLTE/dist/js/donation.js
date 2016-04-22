@@ -117,7 +117,9 @@ function confirmation(i){
 
 function deleteTransaction(i){
     //var transaction_id = $(i).val();
+
     var transaction_id = $(i).attr('alt');
+    console.log(transaction_id);
     var CSRF_TOKEN = $("meta[name='token']").attr('content');
     $.ajax({
         url: getBaseURL()+'transaction/'+transaction_id,
