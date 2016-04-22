@@ -41,7 +41,7 @@ function donation(){
                 var html = '';
                 html += '<center><div class="btn-group">';
                 html += '<button type="button" class="btn btn-warning" value="' + data+'+'+(row['total']+row['random'])+ '" onclick="confirmation(this);" '+disabled+'><i class="fa fa-pencil-square-o"></i> Konfirmasi</button>';
-                html += '<button type="button" class="detail btn btn-info"><i class="fa fa-pencil-square-o"></i> Detail</button>';
+                html += '<button type="button" class="detail btn btn-warning" value="' + data+'+'+(row['total']+row['random'])+ '" onclick="confirmation(this);" '+disabled+'><i class="fa fa-pencil-square-o"></i> Konfirmasi</button>';
                 html += '<button type="button" class="btn btn-danger" value="' + data + '" onclick="deleteTransaction(this);" '+disabled+'><i class="fa fa-trash-o"></i> Batal</button>';
                 html += '</div></center>';
                 return html;
@@ -83,25 +83,7 @@ function donation(){
     } );
 
     function format ( d ) {
-        function format ( d ) {
-            // `d` is the original data object for the row
-            return '<div class="slider">'+
-                        '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
-                            '<tr>'+
-                                '<td>Full name:</td>'+
-                                '<td>'+d.student_name+'</td>'+
-                            '</tr>'+
-                            '<tr>'+
-                                '<td>Extension number:</td>'+
-                                '<td>'+d.transaction_status+'</td>'+
-                            '</tr>'+
-                            '<tr>'+
-                                '<td>Extra info:</td>'+
-                                '<td>And any further details here (images etc)...</td>'+
-                            '</tr>'+
-                        '</table>'+
-                    '</div>';
-        }
+        return 'Full name: <br>Salary:  child row can contain any data you wish, including links, images, inner tables etc.';
     }
 }
 

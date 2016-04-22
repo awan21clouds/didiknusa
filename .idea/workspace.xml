@@ -33,11 +33,10 @@
       <file leaf-file-name="donation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9599057">
-              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.4811321">
+              <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
               <folding>
-                <marker date="1461313678283" expanded="true" signature="3253:4037" placeholder="..." />
-                <marker date="1461313678283" expanded="true" signature="3339:3357" placeholder="..." />
+                <marker date="1461313968989" expanded="true" signature="3337:3355" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -1061,15 +1060,15 @@
       <workItem from="1461145328727" duration="4053000" />
       <workItem from="1461157739563" duration="10950000" />
       <workItem from="1461202861459" duration="28736000" />
-      <workItem from="1461288415005" duration="15279000" />
+      <workItem from="1461288415005" duration="15425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59597000" />
+    <option name="totallyTimeSpent" value="59743000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1538,11 +1537,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9599057">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.4811321">
+          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
           <folding>
-            <marker date="1461313678283" expanded="true" signature="3253:4037" placeholder="..." />
-            <marker date="1461313678283" expanded="true" signature="3339:3357" placeholder="..." />
+            <marker date="1461313968989" expanded="true" signature="3337:3355" placeholder="..." />
           </folding>
         </state>
       </provider>
