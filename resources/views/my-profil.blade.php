@@ -45,7 +45,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Telepon</label>
-                                    <input type="number" name="phone" class="form-control" placeholder="Ketik nomor telepon/ponsel">
+                                    <input type="text" name="phone" class="form-control" placeholder="Ketik nomor telepon/ponsel">
                                 </div>
                                 <div class="form-group">
                                     <label>Email</label>

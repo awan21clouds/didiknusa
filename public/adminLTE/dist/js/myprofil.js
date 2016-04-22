@@ -47,11 +47,12 @@ function updateMyProfil(){
             phone: {
                 message: 'Invalid value',
                 validators: {
+                    regexp: {
+                        regexp: /^[0-9]/,
+                        message: 'The value can contain only letters'
+                    },
                     notEmpty: {
                         message: 'The phone number is required'
-                    },
-                    digits: {
-                        message: 'The value can contain only digits'
                     }
                 }
             },
