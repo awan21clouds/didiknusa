@@ -34,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.44103774">
-              <caret line="43" column="69" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+              <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -1058,12 +1058,12 @@
       <workItem from="1461145328727" duration="4053000" />
       <workItem from="1461157739563" duration="10950000" />
       <workItem from="1461202861459" duration="28736000" />
-      <workItem from="1461288415005" duration="15757000" />
+      <workItem from="1461288415005" duration="15861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60075000" />
+    <option name="totallyTimeSpent" value="60179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1536,7 +1536,7 @@
     <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44103774">
-          <caret line="43" column="69" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+          <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
           <folding />
         </state>
       </provider>
