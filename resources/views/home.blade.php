@@ -7,7 +7,7 @@
             <div class="row wow animated fadeInRight">
                 <div class="col-md-12">
                     <div class="box box-solid">
-                        <div class="box-body">
+                        <div class="box-body no-padding">
                             <img class="img-responsive pad"  src="http://placehold.it/1100x500/f39c12/ffffff&amp;text=Comming+Soon" alt="Third slide">
                             {{--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">--}}
                                 {{--<ol class="carousel-indicators">--}}
