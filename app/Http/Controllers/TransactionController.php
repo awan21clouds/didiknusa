@@ -100,6 +100,7 @@ class TransactionController extends Controller
      */
     public function destroy($id)
     {
+        print_r($id);
         $transaction = Transaction::where('transaction_id', $id);
         $transaction->delete();
     }
