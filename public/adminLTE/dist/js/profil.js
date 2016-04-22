@@ -142,14 +142,14 @@ function kredit(){
             {"title":"Tanggal Transaksi","targets":2}
         ],
         columns : [{
-            "data" : "-"
+            "data" : "transaction detail"
         },{
             "data" : "total",
             "render" : function (data, type, row) {
                 return toRp(data);
             }
         },{
-            "data" : "-"
+            "data" : "transaction_created"
         }],
         aLengthMenu : [[5, 10, -1], [5, 10, "All"]],
         pageLength : 5
