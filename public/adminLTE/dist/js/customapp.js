@@ -89,7 +89,8 @@ $(document).ready(function(){
     });
 
     $('.currency').autoNumeric('init');
-
+    loadHomeScholarship();
+    loadAllScholarhip();
     setActiveMenu();
     initCloneya();
     selectLocate('#form-scholarship select[name=location_id]', 'locate/getAllRowsForScholarship');
@@ -97,8 +98,7 @@ $(document).ready(function(){
     initDeadline();
     insertScholarship();
     insertDonation();
-    loadHomeScholarship();
-    loadAllScholarhip();
+
 });
 
 new WOW().init();
