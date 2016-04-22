@@ -142,7 +142,7 @@ function kredit(){
             {"title":"Tanggal Transaksi","targets":2}
         ],
         columns : [{
-            "data" : "transaction detail"
+            "data" : "transaction_detail"
         },{
             "data" : "total",
             "render" : function (data, type, row) {
