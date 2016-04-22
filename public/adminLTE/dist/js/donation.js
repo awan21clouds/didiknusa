@@ -95,11 +95,11 @@ function donation(){
             '</tr>'+
             '<tr>'+
             '<td>Random </td>'+
-            '<td>'+d.random+'</td>'+
+            '<td>'+toRp(d.random)+'</td>'+
             '</tr>'+
             '<tr>'+
             '<td>Total </td>'+
-            '<td>'+(d.random + d.total)+'</td>'+
+            '<td>'+toRp(d.random + d.total)+'</td>'+
             '</tr>'+
         '</table>';
         //return 'Full name: <br>Salary:  child row can contain any data you wish, including links, images, inner tables etc.';
