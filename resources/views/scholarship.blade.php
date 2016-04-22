@@ -8,7 +8,9 @@
 
             <div class="row wow animated bounceIn">
                 <div class="col-lg-12">
-                    <ul id="pagination" class="pagination"></ul>
+                    @if(count($scholarships))
+                        <ul id="pagination" class="pagination"></ul>
+                    @endif
                 </div>
             </div>
 
