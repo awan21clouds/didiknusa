@@ -8,7 +8,7 @@
                 <div class="col-md-12">
                     <div class="box box-solid">
                         <div class="box-body">
-                            <img src="http://placehold.it/1100x500/f39c12/ffffff&amp;text=Comming+Soon" alt="Third slide">
+                            <img class="img-responsive pad"  src="http://placehold.it/1100x500/f39c12/ffffff&amp;text=Comming+Soon" alt="Third slide">
                             {{--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">--}}
                                 {{--<ol class="carousel-indicators">--}}
                                     {{--<li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>--}}
