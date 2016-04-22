@@ -8,7 +8,6 @@ class Scholarship extends Model
 {
     protected $table = 'scholarship';
     public $timestamps = false;
-//(SELECT sum(total) FROM scholarship_variable where scholarship.scholarship_id = scholarship_variable.scholarship_id
     public function getRow($i){
         $scholarship = DB::table('scholarship')
             ->join('member', 'scholarship.member_id', '=', 'member.member_id')

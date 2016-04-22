@@ -101,8 +101,6 @@ function registration(){
             ajaxPro('POST', getBaseURL()+'member', formData, 'html', false, false, false, false, success, error, null);
             function success(output) {
                 notify('info', 'Registrasi Berhasil!', 'Silahkan masuk', 'glyphicon glyphicon-warning-sign');
-                //$(i).css("background-color", 'transparent');
-                //$('#login').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});
                 $("#form-registration").bootstrapValidator('resetForm', true);
                 $("#form-registration")[0].reset();
             }
@@ -157,17 +155,10 @@ function login(){
             function success(output) {
                 //output.status==1 ? window.location = "../../home" : window.location = "../../member/error";
                 switch (output.status){
-                    case 0 : window.location = getBaseURL()+"home"; break;
+                    case 0 : window.location = getBaseURL(); break;
                     case 1 : window.location = getBaseURL()+"profil/00fb9a11afb139bec093f26de55f6a48"; break;
                     default : window.location = getBaseURL()+"member/error"; break;
                 }
-                //if(output.status==0){
-                //
-                //}else if(output.status==1){
-                //    window.location = getBaseURL()+"profil/00fb9a11afb139bec093f26de55f6a48";
-                //}else {
-                //    window.location = getBaseURL()+"member/error";
-                //}
                 $("#form-login").bootstrapValidator('resetForm', true);
                 $("#form-login")[0].reset();
             }
