@@ -30,7 +30,7 @@ function donation(){
             "render" : function (data, type, row) {
                 var disabled = '';
                 if(row['transaction_status_id']>0){
-                    disabled = 'disabled';
+                    disabled = 'hide';
                 }
 
                 var html = '';
