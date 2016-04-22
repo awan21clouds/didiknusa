@@ -3,6 +3,6 @@
     @include('layout.scholarship-template')
 </div>
 
-{{--<div class="row wow animated bounceInUp text-center">--}}
-    {{--<a href="{{ url('/') }}/scholarship" class="btn btn-default">Selengkapnya</a>--}}
-{{--</div>--}}
+<div class="row wow animated bounceInUp text-center">
+    <a href="{{ url('/') }}/scholarship" class="btn btn-default">Selengkapnya</a>
+</div>
