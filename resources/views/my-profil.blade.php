@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Biografi</label>
-                                    <textarea name="biography" class="form-control" style="resize: none;"></textarea>
+                                    <textarea name="biography" class="form-control" placeholder="Deskripsikan profil siswa" style="resize: none;"></textarea>
                                 </div>
                             </div><!-- /.box-body -->
                             <div class="box-footer">
