@@ -52,7 +52,7 @@ function donation(){
     });
 
     var detailRows = [];
-    $('#dt-donation tbody').on( 'click', 'tr td.btn-group.detail', function () {
+    $('#dt-donation tbody').on( 'click', 'tr td .btn-group .detail', function () {
         var tr = $(this).closest('tr');
         var row = dt_donation.row( tr );
         var idx = $.inArray( tr.attr('id'), detailRows );
@@ -65,7 +65,7 @@ function donation(){
             detailRows.splice( idx, 1 );
         }
         else {
-            tr.addClass( 'details' );
+            tr.addClass( 'detail' );
             row.child( format( row.data() ) ).show();
 
             // Add to the 'open' array
