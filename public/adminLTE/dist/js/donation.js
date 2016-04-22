@@ -118,11 +118,11 @@ function confirmation(i){
 function deleteTransaction(i){
     //var transaction_id = $(i).val();
     var transaction_id = $(i).attr('alt');
-    var CSRF_TOKEN = $("meta[name='token']").attr('content');
+    //var CSRF_TOKEN = $("meta[name='token']").attr('content');
     $.ajax({
         url: getBaseURL()+'transaction/delete/'+transaction_id,
-        type: 'DELETE',
-        data: {_token: CSRF_TOKEN},
+        type: 'get',
+        //data: {_token: CSRF_TOKEN},
         dataType: 'HTML',
         success: success,
         error:error

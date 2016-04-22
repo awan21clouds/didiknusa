@@ -68,7 +68,7 @@ Route::get('/scholarship/allScholarshipJson', 'ScholarshipController@allScholars
 
 
 Route::put('/transaction/confirm/{id}', 'TransactionController@confirm');
-Route::delete('/transaction/delete/{id}', 'TransactionController@delete');
+Route::get('/transaction/delete/{id}', 'TransactionController@delete');
 
 Route::get('/locate/getAllRowsForScholarship', 'LocateController@getAllRowsForScholarship');
 
