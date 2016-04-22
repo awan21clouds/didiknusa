@@ -53,7 +53,7 @@ function donation(){
 
     var detailRows = [];
     //$('#dt-donation tbody').on( 'click', 'tr td.details-control, .details-control', function () {
-    $('#dt-donation tbody .details-control').on( 'click', function () {
+    $('#dt-donation tbody').find('.details-control').on( 'click', function () {
         var tr = $(this).closest('tr');
         var row = dt_donation.row( tr );
         var idx = $.inArray( tr.attr('id'), detailRows );
