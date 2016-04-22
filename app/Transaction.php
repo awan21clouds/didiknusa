@@ -36,7 +36,7 @@ class Transaction extends Model
         return $transaction;
     }
 
-    public function delete($id){
+    public function remove($id){
         DB::table('transaction')->where('transaction_id', '=', $id)->delete();
     }
 }
