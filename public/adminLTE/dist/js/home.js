@@ -156,7 +156,7 @@ function login(){
             function success(output) {
                 //output.status==1 ? window.location = "../../home" : window.location = "../../member/error";
                 switch (output.status){
-                    case 0 : window.location = getBaseURL(); break;
+                    case 0 : window.location = getBaseURL()+"home"; break;
                     case 1 : window.location = getBaseURL()+"profil/00fb9a11afb139bec093f26de55f6a48"; break;
                     default : window.location = getBaseURL()+"member/error"; break;
                 }
