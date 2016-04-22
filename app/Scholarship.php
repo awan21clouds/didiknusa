@@ -11,7 +11,7 @@ class Scholarship extends Model
     public function getRow($i){
         $scholarship = DB::table('scholarship')
             ->join('member', 'scholarship.member_id', '=', 'member.member_id')
-            ->select('scholarship.*', 'member.*', DB::raw('(DATE_FORMAT(register_date, "%H:%i %d-%m-%Y")) as scholarship_created'), DB::raw('(SELECT sum(total) FROM scholarship_variable where scholarship_variable.scholarship_id = scholarship.scholarship_id) as scholarship_target'), DB::raw('(IFNULL((select sum(total) from donation join transaction on donation.transaction_id = transaction.transaction_id where donation.scholarship_id = scholarship.scholarship_id and transaction.transaction_status_id = 2), 0)) as donation_total'))
+            ->select('scholarship.*', 'member.*', DB::raw('(DATE_FORMAT(scholarship.created, "%H:%i %d-%m-%Y")) as scholarship_created'), DB::raw('(SELECT sum(total) FROM scholarship_variable where scholarship_variable.scholarship_id = scholarship.scholarship_id) as scholarship_target'), DB::raw('(IFNULL((select sum(total) from donation join transaction on donation.transaction_id = transaction.transaction_id where donation.scholarship_id = scholarship.scholarship_id and transaction.transaction_status_id = 2), 0)) as donation_total'))
             ->orderBy(DB::raw('RAND()'))
             ->take($i)
             ->get();
@@ -21,7 +21,7 @@ class Scholarship extends Model
     public function getRowsByUser($i){
         $scholarship = DB::table('scholarship')
             ->join('member', 'scholarship.member_id', '=', 'member.member_id')
-            ->select('scholarship.*', 'member.*', DB::raw('(DATE_FORMAT(register_date, "%H:%i %d-%m-%Y")) as scholarship_created'), DB::raw('(SELECT sum(total) FROM scholarship_variable where scholarship_variable.scholarship_id = scholarship.scholarship_id) as scholarship_target'), DB::raw('(IFNULL((select sum(total) from donation join transaction on donation.transaction_id = transaction.transaction_id where donation.scholarship_id = scholarship.scholarship_id and transaction.transaction_status_id = 2), 0)) as donation_total'))
+            ->select('scholarship.*', 'member.*', DB::raw('(DATE_FORMAT(scholarship.created, "%H:%i %d-%m-%Y")) as scholarship_created'), DB::raw('(SELECT sum(total) FROM scholarship_variable where scholarship_variable.scholarship_id = scholarship.scholarship_id) as scholarship_target'), DB::raw('(IFNULL((select sum(total) from donation join transaction on donation.transaction_id = transaction.transaction_id where donation.scholarship_id = scholarship.scholarship_id and transaction.transaction_status_id = 2), 0)) as donation_total'))
             ->where('member.member_id', '=', $i)
             ->orderBy(DB::raw('RAND()'))
             ->get();
@@ -62,7 +62,7 @@ class Scholarship extends Model
     public function getAllRows(){
         $scholarship = DB::table('scholarship')
             ->join('member', 'scholarship.member_id', '=', 'member.member_id')
-            ->select('scholarship.*', 'member.*', DB::raw('(DATE_FORMAT(register_date, "%H:%i %d-%m-%Y")) as scholarship_created'), DB::raw('(DATE_FORMAT(scholarship.deadline, "%d-%m-%Y")) as scholarship_deadline'), DB::raw('(SELECT sum(total) FROM scholarship_variable where scholarship_variable.scholarship_id = scholarship.scholarship_id) as scholarship_target'), DB::raw('(IFNULL((select sum(total) from donation join transaction on donation.transaction_id = transaction.transaction_id where donation.scholarship_id = scholarship.scholarship_id and transaction.transaction_status_id = 2), 0)) as donation_total'))
+            ->select('scholarship.*', 'member.*', DB::raw('(DATE_FORMAT(scholarship.created, "%H:%i %d-%m-%Y")) as scholarship_created'), DB::raw('(DATE_FORMAT(scholarship.deadline, "%d-%m-%Y")) as scholarship_deadline'), DB::raw('(SELECT sum(total) FROM scholarship_variable where scholarship_variable.scholarship_id = scholarship.scholarship_id) as scholarship_target'), DB::raw('(IFNULL((select sum(total) from donation join transaction on donation.transaction_id = transaction.transaction_id where donation.scholarship_id = scholarship.scholarship_id and transaction.transaction_status_id = 2), 0)) as donation_total'))
             ->orderBy(DB::raw('RAND()'))
             ->get();
         return $scholarship;
