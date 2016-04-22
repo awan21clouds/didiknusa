@@ -140,7 +140,7 @@
                                 <p>
                                     <span alt="User-Name"></span>
                                     <small id="member_id" class="hide">{{Session::get('member')->member_id}}</small>
-                                    <small>Terdaftar pada {{Session::get('member')->register_date}}</small>
+                                    <small>Terdaftar pada {{Session::get('member')->member_register_date}}</small>
                                 </p>
                             </li>
                             <!-- Menu Body -->
