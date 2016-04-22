@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="287b53cf-0f8e-43da-b3a2-401e366cef3c" name="Default" comment="K">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TransactionController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TransactionController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transaction.php" afterPath="$PROJECT_DIR$/app/Transaction.php" />
     </list>
     <ignored path="didikbangsaGit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,23 +30,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="donation.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="donation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.36084905">
+              <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
               <folding>
-                <marker date="1461367834173" expanded="true" signature="3894:3912" placeholder="..." />
-                <marker date="1461367834173" expanded="true" signature="3913:4311" placeholder="..." />
+                <marker date="1461368238219" expanded="true" signature="3894:3912" placeholder="..." />
+                <marker date="1461368238219" expanded="true" signature="3913:4311" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransactionController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TransactionController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TransactionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74371856">
+            <state vertical-scroll-proportion="-9.423077">
               <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
               <folding />
             </state>
@@ -181,9 +179,9 @@
         <option value="$PROJECT_DIR$/app/Scholarship.php" />
         <option value="$PROJECT_DIR$/app/Donation.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/public/adminLTE/dist/js/donation.js" />
         <option value="$PROJECT_DIR$/app/Transaction.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TransactionController.php" />
+        <option value="$PROJECT_DIR$/public/adminLTE/dist/js/donation.js" />
       </list>
     </option>
   </component>
@@ -1053,15 +1051,15 @@
       <workItem from="1461157739563" duration="10950000" />
       <workItem from="1461202861459" duration="28736000" />
       <workItem from="1461288415005" duration="22608000" />
-      <workItem from="1461357802690" duration="9454000" />
+      <workItem from="1461357802690" duration="9564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76380000" />
+    <option name="totallyTimeSpent" value="76490000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1493,17 +1491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
-          <folding>
-            <marker date="1461367834173" expanded="true" signature="3894:3912" placeholder="..." />
-            <marker date="1461367834173" expanded="true" signature="3913:4311" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Transaction.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.769231">
@@ -1514,9 +1501,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TransactionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74371856">
+        <state vertical-scroll-proportion="-9.423077">
           <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/donation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36084905">
+          <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+          <folding>
+            <marker date="1461368238219" expanded="true" signature="3894:3912" placeholder="..." />
+            <marker date="1461368238219" expanded="true" signature="3913:4311" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
