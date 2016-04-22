@@ -35,8 +35,8 @@ function donation(){
 
                 var html = '';
                 html += '<center><div class="btn-group">';
-                html += '<button type="button" class="btn btn-warning" value="' + data+'+'+(row['total']+row['random'])+ '" onclick="confirmation(this);" '+disabled+'><i class="fa fa-pencil-square-o"></i> Konfirmasi</button>';
                 html += '<button type="button" class="details-control btn btn-info"><i class="fa fa-search"></i> detail</button>';
+                html += '<button type="button" class="btn btn-warning" value="' + data+'+'+(row['total']+row['random'])+ '" onclick="confirmation(this);" '+disabled+'><i class="fa fa-pencil-square-o"></i> Konfirmasi</button>';
                 html += '<button type="button" class="btn btn-danger" value="' + data + '" onclick="deleteTransaction(this);" '+disabled+'><i class="fa fa-trash-o"></i> Batal</button>';
                 html += '</div></center>';
                 return html;
