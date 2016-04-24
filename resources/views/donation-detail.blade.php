@@ -23,7 +23,7 @@
                     <a href="{{ url('/') }}/profil/{{md5('my-donation')}}" class="animsition-link">Konfirmasi Sekarang</a>
                 </div>
                 <div class="lockscreen-footer text-center">
-                    <h3><b>DidikBangsa</b>.com</h3>
+                    <h3><b>DidikNusa</b>.com</h3>
                     Copyright &copy; 2016<br>
                 </div>
             </div><!-- /.center -->
