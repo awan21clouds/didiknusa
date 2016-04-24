@@ -4,7 +4,7 @@
             <div class="navbar-header">
                 <a href="{{ url('/') }}/home" class="navbar-brand">
                     {{--<img src="../adminLTE/dist/img/logo.png" class="user-image img-sm" id="brand-logo"  alt="User Image">--}}
-                    <b>DidikBangsa</b>.com
+                    <b>DidikNusa</b>.com
                 </a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
                     <i class="fa fa-bars"></i>

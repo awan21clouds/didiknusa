@@ -1,4 +1,4 @@
-<link rel="shortcut icon" media="all" href="{{ url('/') }}/adminLTE/dist/img/logo.png" />
+{{--<link rel="shortcut icon" media="all" href="{{ url('/') }}/adminLTE/dist/img/logo.png" />--}}
 <link media="all" type="text/css" rel="stylesheet" href="../adminLTE/bootstrap/css/bootstrap.css"/>
 <link media="all" type="text/css" rel="stylesheet" href="../adminLTE/plugins/notify/animate.css"/>
 <link media="all" type="text/css" rel="stylesheet" href="../adminLTE/plugins/font-awesome-4.5.0/css/font-awesome.min.css"/>
