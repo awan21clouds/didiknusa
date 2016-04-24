@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>DidikBangsa.com</title>
+        <title>DidikNusa.com</title>
         @include('layout.style')
     </head>
     <body class="hold-transition lockscreen">
