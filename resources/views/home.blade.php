@@ -136,7 +136,7 @@
                         <div class="box-body">
                             <div class="col-lg-4">
                                 <ul class="list-unstyled">
-                                    <li><a href="javascript:;" class="link-black dashed-underline">Apa itu DidikBangsa.com</a></li>
+                                    <li><a href="javascript:;" class="link-black dashed-underline">Apa itu DidikNusa.com</a></li>
                                     <li><a href="javascript:;" class="link-black dashed-underline">Our Team</a></li>
                                     <li><a href="javascript:;" class="link-black dashed-underline">Acara</a></li>
                                 </ul>
@@ -151,14 +151,14 @@
                             </div>
                             <div class="col-lg-4">
                                 <ul class="list-unstyled">
-                                    <li>DidikBangsa.com</li>
+                                    <li>DidikNusa.com</li>
                                     <li>Jalan Adiyaksa 6 No. 9</li>
                                     <li>Sukapura, Bandung</li>
                                     <li>Jawa Barat 40288</li>
                                     <li>Indonesia</li>
                                     <li>Telepon : xxxxxxxxxx</li>
-                                    <li>Email : didikbangsa@mail.com</li>
-                                    <li>Google Maps : <a href="javascript:;" class="link-black dashed-underline">DidikBangsa.com</a></li>
+                                    <li>Email : didiknusa@mail.com</li>
+                                    <li>Google Maps : <a href="javascript:;" class="link-black dashed-underline">DidikNusa.com</a></li>
                                 </ul>
                             </div>
                         </div>
