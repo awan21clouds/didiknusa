@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>DidikBangsa.com</title>
+        <title>DidikNusa.com</title>
         <meta name="token" content="{{csrf_token()}}">
         @include('layout.style')
     </head>
