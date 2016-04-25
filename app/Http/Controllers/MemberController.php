@@ -159,9 +159,9 @@ class MemberController extends Controller
             $randomString .= $characters[rand(0, $charactersLength - 1)];
         }
 
-        $email = Input::get('email');
-        Member::where('email', $email)
-            ->update(['password' => md5($randomString)]);
+//        $email = Input::get('email');
+//        Member::where('email', $email)
+//            ->update(['password' => md5($randomString)]);
 
         Mail::send('vendor.mail.hello', ['password' => $randomString], function ($m) {
             $m->from('telucollaborativelearning@gmail.com', 'Your Application');
