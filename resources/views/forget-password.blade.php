@@ -149,12 +149,14 @@
     <div class="site__container">
 
         <div class="grid__container">
+            <h1 class="text--center">DidikBangsa.com</h1>
+            <h1 class="text--center">Silahkan isi kolom pada form berikut</h1>
 
             <form action="" method="post" class="form form--login">
 
                 <div class="form__field">
                     <label class="fa fa-envelope" for="login__password"><span class="hidden">Email</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan alamat email anda" required>
+                    <input type="text" class="form__input" placeholder="Masukkan alamat email anda" name="email"/>
                 </div>
 
                 <div class="form__field">

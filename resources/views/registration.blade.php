@@ -154,27 +154,27 @@
 
                 <div class="form__field">
                     <label class="fa fa-user" for="login__username"><span class="hidden">Nama</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan nama anda" name="name" required>
+                    <input type="text" class="form__input" placeholder="Masukkan nama anda" name="name"/>
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-phone" for="login__password"><span class="hidden">Nomor Telepon</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan nomor telepon anda" required>
+                    <input type="text" class="form__input" placeholder="Masukkan nomor telepon anda" name="phone"/>
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-envelope" for="login__password"><span class="hidden">Email</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan alamat email anda" required>
+                    <input type="text" class="form__input" placeholder="Masukkan alamat email anda" name="email"/>
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-lock" for="login__password"><span class="hidden">Password</span></label>
-                    <input type="password" class="form__input" placeholder="Masukkan password anda" required>
+                    <input type="password" class="form__input" placeholder="Masukkan password anda" name="password"/>
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-lock" for="login__password"><span class="hidden">Konfirmasi Password</span></label>
-                    <input type="password" class="form__input" placeholder="Masukkan kembali password anda" required>
+                    <input type="password" class="form__input" placeholder="Masukkan kembali password anda" name="confirm_password">
                 </div>
 
                 <div class="form__field">
