@@ -70,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom-bootstrap.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom-bootstrap.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/bootstrap/css/custom-bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.0">
-              <caret line="188" column="1" selection-start-line="6" selection-start-column="0" selection-end-line="188" selection-end-column="1" />
+            <state vertical-scroll-proportion="-229.04065">
+              <caret line="896" column="4" selection-start-line="896" selection-start-column="0" selection-end-line="896" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -100,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="registration.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/registration.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72613066">
+            <state vertical-scroll-proportion="-11.115385">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -188,10 +188,10 @@
         <option value="$PROJECT_DIR$/resources/views/login.blade.php" />
         <option value="$PROJECT_DIR$/public/adminLTE/dist/css/customLTE.css" />
         <option value="$PROJECT_DIR$/public/adminLTE/dist/js/home.js" />
-        <option value="$PROJECT_DIR$/public/adminLTE/bootstrap/css/custom-bootstrap.css" />
         <option value="$PROJECT_DIR$/public/adminLTE/dist/css/login.css" />
         <option value="$PROJECT_DIR$/public/adminLTE/dist/css/custom-bootstrap.css" />
         <option value="$PROJECT_DIR$/resources/views/registration.blade.php" />
+        <option value="$PROJECT_DIR$/public/adminLTE/bootstrap/css/custom-bootstrap.css" />
       </list>
     </option>
   </component>
@@ -1207,12 +1207,12 @@
       <workItem from="1461288415005" duration="22608000" />
       <workItem from="1461357802690" duration="10587000" />
       <workItem from="1461482962822" duration="1377000" />
-      <workItem from="1461549392958" duration="14385000" />
+      <workItem from="1461549392958" duration="14487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93275000" />
+    <option name="totallyTimeSpent" value="93377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1667,21 +1667,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/adminLTE/bootstrap/css/custom-bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0">
-          <caret line="188" column="1" selection-start-line="6" selection-start-column="0" selection-end-line="188" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/registration.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72613066">
+        <state vertical-scroll-proportion="-11.115385">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/adminLTE/bootstrap/css/custom-bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-229.04065">
+          <caret line="896" column="4" selection-start-line="896" selection-start-column="0" selection-end-line="896" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
