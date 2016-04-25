@@ -153,22 +153,32 @@
             <form action="" method="post" class="form form--login">
 
                 <div class="form__field">
-                    <label class="fa fa-user" for="login__username"><span class="hidden">Username</span></label>
-                    <input id="login__username" type="text" class="form__input" placeholder="Username" required>
+                    <label class="fa fa-user" for="login__username"><span class="hidden">Nama</span></label>
+                    <input type="text" class="form__input" placeholder="Masukkan nama anda" name="name" required>
                 </div>
 
                 <div class="form__field">
-                    <label class="fa fa-lock" for="login__password"><span class="hidden">Password</span></label>
-                    <input id="login__password" type="password" class="form__input" placeholder="Password" required>
+                    <label class="fa fa-phone" for="login__password"><span class="hidden">Nomor Telepon/Ponsel</span></label>
+                    <input type="text" class="form__input" placeholder="Masukkan nomor telepon atau ponsel anda" required>
                 </div>
 
                 <div class="form__field">
-                    <label class="fa fa-lock" for="login__password"><span class="hidden">Password</span></label>
-                    <input id="login__password" type="password" class="form__input" placeholder="Password" required>
+                    <label class="fa fa fa-envelope" for="login__password"><span class="hidden">Email</span></label>
+                    <input type="text" class="form__input" placeholder="Masukkan alamat email anda" required>
                 </div>
 
                 <div class="form__field">
-                    <input type="submit" value="Sign In">
+                    <label class="fa fa fa-envelope" for="login__password"><span class="hidden">Password</span></label>
+                    <input type="password" class="form__input" placeholder="Masukkan password anda" required>
+                </div>
+
+                <div class="form__field">
+                    <label class="fa fa fa-envelope" for="login__password"><span class="hidden">Konfirmasi Password</span></label>
+                    <input type="password" class="form__input" placeholder="Masukkan kembali password anda" required>
+                </div>
+
+                <div class="form__field">
+                    <input type="submit" value="Daftar">
                 </div>
 
             </form>
