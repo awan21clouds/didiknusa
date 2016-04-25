@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>DidikNusa.com</title>
-        @include('layout.style')
+        {{--@include('layout.style')--}}
         <style>
             @import url(http://weloveiconfonts.com/api/?family=fontawesome);
             @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
