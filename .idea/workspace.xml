@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="287b53cf-0f8e-43da-b3a2-401e366cef3c" name="Default" comment="K">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
     </list>
     <ignored path="didikbangsaGit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,8 +77,8 @@
       <file leaf-file-name="mail.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52577317">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="96" column="34" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -1026,12 +1025,12 @@
       <workItem from="1461288415005" duration="22608000" />
       <workItem from="1461357802690" duration="10587000" />
       <workItem from="1461482962822" duration="1377000" />
-      <workItem from="1461549392958" duration="26876000" />
+      <workItem from="1461549392958" duration="27096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105766000" />
+    <option name="totallyTimeSpent" value="105986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1511,8 +1510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52577317">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="34" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
           <folding />
         </state>
       </provider>

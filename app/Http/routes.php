@@ -68,7 +68,7 @@ Route::get('/member/emailValidator', 'MemberController@emailValidator');
 //Route::post('/member/forgetPassword', 'MemberController@forgetPassword');
 Route::post('/member/forgetPassword', function(){
     Mail::send('vendor.mail.hello', ['password' => 'hello'], function ($m) {
-        $m->from('postmaster@appcf2b65490add4456bd501e568215e860.mailgun.org', 'Your Application');
+        $m->from('app49703816@heroku.com', 'DidikNusa.com');
 
         $m->to('rizqyfahmi@gmail.com', 'rizqyfahmi')->subject('Your Reminder!');
     });
