@@ -24,7 +24,7 @@
 
                 <div class="form__field">
                     <label class="fa fa-phone" for="login__password"><span class="hidden">Nomor Telepon</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan nomor telepon anda" name="phone" required pattern="^\d{13}$" title="Silahkan isi kolom ini dengan  nomor telepon yang valid"/>
+                    <input type="text" class="form__input" placeholder="Masukkan nomor telepon anda" name="phone" required pattern="[0-9]{1,15}" title="Silahkan isi kolom ini dengan  nomor telepon yang valid"/>
                 </div>
 
                 <div class="form__field">
