@@ -182,7 +182,7 @@
                 </div>
 
                 <div class="form__field">
-                    <input type="submit" value="Daftar">
+                    <button type="submit">Daftar</button>
                 </div>
 
             </form>
