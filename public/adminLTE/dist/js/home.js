@@ -74,10 +74,6 @@ function forgetPassword(){
         ajaxPro('POST', getBaseURL()+'member/forgetPassword', formData, 'html', false, false, false, false, success, error, null);
         function success(output) {
             notify('info', 'Reset password berhasil!', 'Silahkan cek email anda', 'glyphicon glyphicon-warning-sign');
-            $(i).css("background-color", 'transparent');
-            $('#login').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});
-            $("#form-password").bootstrapValidator('resetForm', true);
-            $("#form-password")[0].reset();
         }
         function error(jqXHR, textStatus, errorThrown) {
             alert('<p>status code: '+jqXHR.status+'</p><p>errorThrown: ' + errorThrown + '</p><p>jqXHR.responseText:</p><div>'+jqXHR.responseText + '</div>');
