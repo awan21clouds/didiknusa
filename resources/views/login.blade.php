@@ -13,7 +13,7 @@
             <h1 class="text--center">DidikNusa.com</h1>
             <h3 class="text--center">Silahkan isi kolom pada form berikut</h3>
 
-            <form action="" method="post" class="form form--login">
+            <form action="" method="post" class="form form--login" id="form-login">
                 <input type="hide" name="_token" value="{{csrf_token()}}" style="display: none;"/>
                 <div class="form__field">
                     <label class="fa fa-envelope" for="login__password"><span class="hidden">Email</span></label>
