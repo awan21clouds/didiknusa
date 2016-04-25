@@ -92,9 +92,14 @@
                 border:none;
             }
             .form--login button[type="submit"]:focus, .form--login button[type="submit"]:hover {
-                background-color: #1C2021;
+                background-color: #59A9C2;
                 opacity: 0.5;
                 border:none;
+
+                -webkit-transition: background .5s ease-out;
+                -moz-transition: background .5s ease-out;
+                -o-transition: background .5s ease-out;
+                transition: background .5s ease-out;
             }
             .form__field {
                 display: -webkit-box;
