@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="287b53cf-0f8e-43da-b3a2-401e366cef3c" name="Default" comment="K">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/registration.blade.php" afterPath="$PROJECT_DIR$/resources/views/registration.blade.php" />
     </list>
     <ignored path="didikbangsaGit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,8 +104,8 @@
       <file leaf-file-name="registration.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/registration.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5301508">
-              <caret line="31" column="138" selection-start-line="31" selection-start-column="138" selection-end-line="31" selection-end-column="138" />
+            <state vertical-scroll-proportion="0.74371856">
+              <caret line="36" column="94" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -1104,12 +1105,12 @@
       <workItem from="1461288415005" duration="22608000" />
       <workItem from="1461357802690" duration="10587000" />
       <workItem from="1461482962822" duration="1377000" />
-      <workItem from="1461549392958" duration="9384000" />
+      <workItem from="1461549392958" duration="9477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88274000" />
+    <option name="totallyTimeSpent" value="88367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1565,8 +1566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/registration.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5301508">
-          <caret line="31" column="138" selection-start-line="31" selection-start-column="138" selection-end-line="31" selection-end-column="138" />
+        <state vertical-scroll-proportion="0.74371856">
+          <caret line="36" column="94" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
           <folding />
         </state>
       </provider>
