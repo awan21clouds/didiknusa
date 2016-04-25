@@ -166,11 +166,11 @@ class MemberController extends Controller
         Member::where('email', $email)
             ->update(['password' => md5($randomString)]);
 
-        Mail::send('vendor.mail.hello', ['password' => $randomString], function ($m) {
-            $email = Input::get('email');
+        Mail::send('vendor.mail.hello', ['password' => $randomString], function ($m, $email) {
+
             $member = new Member();
             $logged = $member->getMemberByEmail($email);
-
+            echo $logged;
             $m->from('telucollaborativelearning@gmail.com', 'DidikNusa.com');
 
             $m->to($email, $logged->name)->subject('Password Baru');
