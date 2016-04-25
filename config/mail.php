@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'app49703816@heroku.com', 'name' => 'DidikBangsa.com'],
+    'from' => ['address' => 'app49703816@heroku.com', 'name' => 'DidikNusa.com'],
 
     /*
     |--------------------------------------------------------------------------
