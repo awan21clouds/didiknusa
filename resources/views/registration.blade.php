@@ -154,7 +154,7 @@
             <h1 class="text--center">DidikNusa.com</h1>
             <h3 class="text--center">Silahkan isi kolom pada form berikut</h3>
 
-            <form action="" method="post" class="form form--login">
+            <form action="" method="post" class="form form--login" id="form-registration">
 
                 <div class="form__field">
                     <label class="fa fa-user" for="login__username"><span class="hidden">Nama</span></label>
