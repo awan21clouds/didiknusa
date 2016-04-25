@@ -19,17 +19,17 @@
 
                 <div class="form__field">
                     <label class="fa fa-user" for="login__username"><span class="hidden">Nama</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan nama anda" name="name" required/>
+                    <input type="text" class="form__input" placeholder="Masukkan nama anda" name="name" required title="Silahkan isi kolom ini dengan nama yang valid"/>
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-phone" for="login__password"><span class="hidden">Nomor Telepon</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan nomor telepon anda" name="phone" required pattern="[0-9]"/>
+                    <input type="text" class="form__input" placeholder="Masukkan nomor telepon anda" name="phone" required pattern="^\d{13}$" title="Silahkan isi kolom ini dengan  nomor telepon yang valid"/>
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-envelope" for="login__password"><span class="hidden">Email</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan alamat email anda" name="email" required/>
+                    <input type="email" class="form__input" placeholder="Masukkan alamat email anda" name="email" required title="Silahkan isi kolom ini dengan  alamat email yang valid" />
                 </div>
 
                 <div class="form__field">
