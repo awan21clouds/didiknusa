@@ -89,9 +89,11 @@
                 color: #eee;
                 font-weight: bold;
                 text-transform: uppercase;
+                border:none;
             }
             .form--login button[type="submit"]:focus, .form--login button[type="submit"]:hover {
                 background-color: #3498DB;
+                border:none;
             }
             .form__field {
                 display: -webkit-box;
