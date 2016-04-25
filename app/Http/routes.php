@@ -64,7 +64,16 @@ Route::post('/member/updatePhoto', 'MemberController@updatePhoto');
 Route::put('/member/updatePassword/{id}', 'MemberController@updatePassword');
 Route::get('/member/passwordValidator', 'MemberController@passwordValidator');
 Route::get('/member/emailValidator', 'MemberController@emailValidator');
-Route::post('/member/forgetPassword', 'MemberController@forgetPassword');
+
+//Route::post('/member/forgetPassword', 'MemberController@forgetPassword');
+Route::post('/member/forgetPassword', function(){
+    Mail::send('vendor.mail.hello', ['password' => 'hello'], function ($m) {
+        $m->from('telucollaborativelearning@gmail.com', 'Your Application');
+
+        $m->to('rizqyfahmi@gmail.com', 'rizqyfahmi')->subject('Your Reminder!');
+    });
+});
+
 Route::post('/member/login', 'MemberController@login');
 Route::get('/member/logout', 'MemberController@logout');
 Route::get('/member/error', 'MemberController@error');
