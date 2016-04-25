@@ -163,7 +163,7 @@
 
             </form>
 
-            <p class="text--center">Ingat Password? <a href="#">Silahkan masuk</a> <span class="fontawesome-arrow-right"></span></p>
+            <p class="text--center">Ingat Password? <a href="login">Silahkan masuk</a> <span class="fontawesome-arrow-right"></span></p>
 
         </div>
 
