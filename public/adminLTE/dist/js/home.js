@@ -9,6 +9,7 @@ $(document).ready(function(){
 });
 //
 function registration(){
+    alert(1);
     $('#form-registration').submit(function (event) {
         event.preventDefault();
         alert(1);
