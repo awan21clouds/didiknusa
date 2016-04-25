@@ -19,7 +19,7 @@
 
                 <div class="form__field">
                     <label class="fa fa-user" for="login__username"><span class="hidden">Nama</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan nama anda" name="name"/>
+                    <input type="text" class="form__input" placeholder="Masukkan nama anda" name="name" required/>
                 </div>
 
                 <div class="form__field">
