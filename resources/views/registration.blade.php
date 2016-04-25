@@ -93,7 +93,7 @@
             }
             .form--login button[type="submit"]:focus, .form--login button[type="submit"]:hover {
                 background-color: #59A9C2;
-                opacity: 0.5;
+                /*opacity: 0.5;*/
                 border:none;
 
                 -webkit-transition: background .5s ease-out;
