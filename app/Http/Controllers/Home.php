@@ -88,4 +88,8 @@ class Home extends Controller
     {
         //
     }
+
+    public function login(){
+        return view('login');
+    }
 }
