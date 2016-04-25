@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5188679">
-              <caret line="78" column="93" selection-start-line="78" selection-start-column="93" selection-end-line="78" selection-end-column="93" />
+              <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -1200,16 +1200,16 @@
       <workItem from="1461288415005" duration="22608000" />
       <workItem from="1461357802690" duration="10587000" />
       <workItem from="1461482962822" duration="1377000" />
-      <workItem from="1461549392958" duration="15585000" />
+      <workItem from="1461549392958" duration="15644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94475000" />
+    <option name="totallyTimeSpent" value="94534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1673,7 +1673,7 @@
     <entry file="file://$PROJECT_DIR$/public/adminLTE/dist/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5188679">
-          <caret line="78" column="93" selection-start-line="78" selection-start-column="93" selection-end-line="78" selection-end-column="93" />
+          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
           <folding />
         </state>
       </provider>
