@@ -168,7 +168,7 @@
 
             </form>
 
-            <p class="text--center">Belum terdaftar? <a href="#">Registrasi sekarang</a> <span class="fontawesome-arrow-right"></span></p>
+            <p class="text--center">Lupa password? <a href="forget-password">Buat password baru</a> <span class="fontawesome-arrow-right"></span></p>
 
         </div>
 

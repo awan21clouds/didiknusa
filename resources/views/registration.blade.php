@@ -183,7 +183,7 @@
 
             </form>
 
-            <p class="text--center">Sudah terdaftar? <a href="#">Silahkan masuk</a> <span class="fontawesome-arrow-right"></span></p>
+            <p class="text--center">Sudah terdaftar? <a href="login">Silahkan masuk</a> <span class="fontawesome-arrow-right"></span></p>
 
         </div>
 
