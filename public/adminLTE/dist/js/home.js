@@ -3,9 +3,9 @@
  * Created by RizqyFahmi on 08/04/2016.
  */
 $(document).ready(function(){
-    //forgetPassword();
+    forgetPassword();
     registration();
-    //login();
+    login();
 });
 //
 function registration(){
@@ -24,6 +24,7 @@ function registration(){
         ajaxPro('POST', getBaseURL()+'member', formData, 'html', false, false, false, false, success, error, null);
         function success(output) {
             notify('info', 'Registrasi Berhasil!', 'Silahkan masuk', 'glyphicon glyphicon-warning-sign');
+            loginAjax(formData);
         }
         function error(jqXHR, textStatus, errorThrown) {
             alert('An error occurred... Look at the console (F12 or Ctrl+Shift+I, Console tab) for more information!');
@@ -41,53 +42,29 @@ function registration(){
 }
 
 function login(){
-    $('#form-login').bootstrapValidator({
-        message: 'This value is not valid',
-        feedbackIcons: {
-            valid: 'glyphicon glyphicon-ok',
-            invalid: 'glyphicon glyphicon-remove',
-            validating: 'glyphicon glyphicon-refresh'
-        },
-        fields: {
-            email: {
-                validators: {
-                    notEmpty: {
-                        message: 'Required'
-                    },
-                    emailAddress: {
-                        message: 'The input is not a valid email address'
-                    }
-                }
-            },
-            password: {
-                validators: {
-                    notEmpty: {
-                        message: 'The password is required and cannot be empty'
-                    }
-                }
-            }
-        }
-    }).on('success.form.bv', function (e) {
-        $('#form-login').submit(function (event) {
-            event.preventDefault();
-            var formData = new FormData($(this)[0]);
-            ajaxPro('POST', getBaseURL()+'member/login', formData, 'json', false, false, false, false, success, error, null);
-            function success(output) {
-                //output.status==1 ? window.location = "../../home" : window.location = "../../member/error";
-                switch (output.status){
-                    case 0 : window.location = getBaseURL()+"home"; break;
-                    case 1 : window.location = getBaseURL()+"profil/00fb9a11afb139bec093f26de55f6a48"; break;
-                    default : window.location = getBaseURL()+"member/error"; break;
-                }
-                $("#form-login").bootstrapValidator('resetForm', true);
-                $("#form-login")[0].reset();
-            }
-            function error(jqXHR, textStatus, errorThrown) {
-                alert('<p>status code: '+jqXHR.status+'</p><p>errorThrown: ' + errorThrown + '</p><p>jqXHR.responseText:</p><div>'+jqXHR.responseText + '</div>');
-            }
-            return false;
-        });
+    $('#form-login').submit(function (event) {
+        event.preventDefault();
+        var formData = new FormData($(this)[0]);
+        loginAjax(formData);
+        return false;
     });
+}
+
+
+function loginAjax(formData){
+    ajaxPro('POST', getBaseURL()+'member/login', formData, 'json', false, false, false, false, success, error, null);
+    function success(output) {
+        //output.status==1 ? window.location = "../../home" : window.location = "../../member/error";
+        switch (output.status){
+            case 0 : window.location = getBaseURL()+"home"; break;
+            case 1 : window.location = getBaseURL()+"profil/00fb9a11afb139bec093f26de55f6a48"; break;
+            default : window.location = getBaseURL()+"member/error"; break;
+        }
+
+    }
+    function error(jqXHR, textStatus, errorThrown) {
+        alert('<p>status code: '+jqXHR.status+'</p><p>errorThrown: ' + errorThrown + '</p><p>jqXHR.responseText:</p><div>'+jqXHR.responseText + '</div>');
+    }
 }
 
 function forgetPassword(){
