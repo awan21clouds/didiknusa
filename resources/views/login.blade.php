@@ -82,13 +82,13 @@
                 background-color: #434A52;
             }
             .form--login input[type="submit"] {
-                background-color: #ea4c88;
+                background-color: #3498DB;
                 color: #eee;
                 font-weight: bold;
                 text-transform: uppercase;
             }
             .form--login input[type="submit"]:focus, .form--login input[type="submit"]:hover {
-                background-color: #d44179;
+                background-color: #3498DB;
             }
             .form__field {
                 display: -webkit-box;
