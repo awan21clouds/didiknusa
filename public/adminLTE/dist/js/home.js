@@ -3,9 +3,9 @@
  * Created by RizqyFahmi on 08/04/2016.
  */
 $(document).ready(function(){
-    forgetPassword();
+    //forgetPassword();
     registration();
-    login();
+    //login();
 });
 //
 function registration(){
