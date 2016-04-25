@@ -34,12 +34,12 @@
 
                 <div class="form__field">
                     <label class="fa fa-lock" for="login__password"><span class="hidden">Password</span></label>
-                    <input type="password" class="form__input" placeholder="Masukkan password anda" name="password" required/>
+                    <input type="password" class="form__input" placeholder="Masukkan password anda" name="password" id="password1" required/>
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-lock" for="login__password"><span class="hidden">Konfirmasi Password</span></label>
-                    <input type="password" class="form__input" placeholder="Masukkan kembali password anda" name="confirm_password" required>
+                    <input type="password" class="form__input" placeholder="Masukkan kembali password anda" name="confirm_password" id="password2" required>
                 </div>
 
                 <div class="form__field">
@@ -53,8 +53,20 @@
         </div>
 
     </div>
-    {{--<script src="../adminLTE/plugins/jQuery/jQuery-2.1.4.min.js"></script>--}}
-    {{--<script src="../adminLTE/dist/js/home.js"></script>--}}
-    {{--@include('layout.script')--}}
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById("password1").onchange = validatePassword;
+            document.getElementById("password2").onchange = validatePassword;
+        }
+        function validatePassword(){
+            var pass2=document.getElementById("password2").value;
+            var pass1=document.getElementById("password1").value;
+            if(pass1!=pass2)
+                document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+            else
+                document.getElementById("password2").setCustomValidity('');
+//empty string means no validation error
+        }
+    </script>
     </body>
 </html>
