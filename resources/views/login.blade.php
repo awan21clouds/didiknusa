@@ -1,7 +1,8 @@
 <html>
     <head>
         <title>DidikNusa.com</title>
-        {{--@include('layout.style')--}}
+        <link media="all" type="text/css" rel="stylesheet" href="../adminLTE/plugins/font-awesome-4.5.0/css/font-awesome.min.css"/>
+        <link media="all" type="text/css" rel="stylesheet" href="../adminLTE/plugins/ionicons-master/css/ionicons.min.css"/>
         <style>
             @import url(http://weloveiconfonts.com/api/?family=fontawesome);
             @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
@@ -152,12 +153,12 @@
             <form action="" method="post" class="form form--login">
 
                 <div class="form__field">
-                    <label class="fontawesome-user" for="login__username"><span class="hidden">Username</span></label>
+                    <label class="fa fa-user" for="login__username"><span class="hidden">Username</span></label>
                     <input id="login__username" type="text" class="form__input" placeholder="Username" required>
                 </div>
 
                 <div class="form__field">
-                    <label class="fontawesome-lock" for="login__password"><span class="hidden">Password</span></label>
+                    <label class="fa fa-lock" for="login__password"><span class="hidden">Password</span></label>
                     <input id="login__password" type="password" class="form__input" placeholder="Password" required>
                 </div>
 
