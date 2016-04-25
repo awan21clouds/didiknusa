@@ -56,7 +56,7 @@
                 padding: 3rem 0;
             }
 
-            .form input[type="password"], .form input[type="text"], .form input[type="submit"] {
+            .form input[type="password"], .form input[type="text"], .form button[type="submit"] {
                 width: 100%;
             }
             .form--login {
@@ -65,7 +65,7 @@
             .form--login label,
             .form--login input[type="text"],
             .form--login input[type="password"],
-            .form--login input[type="submit"] {
+            .form--login button[type="submit"] {
                 border-radius: 0.25rem;
                 padding: 1rem;
             }
@@ -84,13 +84,13 @@
             .form--login input[type="text"]:focus, .form--login input[type="text"]:hover, .form--login input[type="password"]:focus, .form--login input[type="password"]:hover {
                 background-color: #434A52;
             }
-            .form--login input[type="submit"] {
+            .form--login button[type="submit"] {
                 background-color: #3498DB;
                 color: #eee;
                 font-weight: bold;
                 text-transform: uppercase;
             }
-            .form--login input[type="submit"]:focus, .form--login input[type="submit"]:hover {
+            .form--login button[type="submit"]:focus, .form--login button[type="submit"]:hover {
                 background-color: #3498DB;
             }
             .form__field {
