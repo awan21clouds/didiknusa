@@ -48,6 +48,18 @@ Route::get('/member/admin-donation', function () {
     return view('donation');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/registration', function () {
+    return view('registration');
+});
+
+Route::get('/forget-password', function () {
+    return view('forget-password');
+});
+
 Route::post('/member/updatePhoto', 'MemberController@updatePhoto');
 Route::put('/member/updatePassword/{id}', 'MemberController@updatePassword');
 Route::get('/member/passwordValidator', 'MemberController@passwordValidator');
