@@ -76,7 +76,7 @@ function forgetPassword(){
             notify('info', 'Reset password berhasil!', 'Silahkan cek email anda', 'glyphicon glyphicon-warning-sign');
         }
         function error(jqXHR, textStatus, errorThrown) {
-            alert('<p>status code: '+jqXHR.status+'</p><p>errorThrown: ' + errorThrown + '</p><p>jqXHR.responseText:</p><div>'+jqXHR.responseText + '</div>');
+            notify('danger', 'Reset Password Gagal!', 'Email yang anda masukkan tidak terdaftar', 'fa fa-times');
         }
         return false;
     });
