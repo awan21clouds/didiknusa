@@ -3,108 +3,183 @@
         <title>DidikNusa.com</title>
         @include('layout.style')
         <style>
+            body {
+                font-family: "Open Sans", sans-serif;
+                height: 100vh;
+                background: url("http://i.imgur.com/HgflTDf.jpg") 50% fixed;
+                background-size: cover;
+            }
+
+            @keyframes spinner {
+                0% {
+                    transform: rotateZ(0deg);
+                }
+                100% {
+                    transform: rotateZ(359deg);
+                }
+            }
             * {
                 box-sizing: border-box;
             }
 
-            *:focus {
-                outline: none;
-            }
-            body {
-                font-family: Arial;
-                background-color: #3498DB;
-                padding: 50px;
-            }
-            .login {
-                margin: 20px auto;
-                width: 300px;
-            }
-            .login-screen {
-                background-color: #FFF;
+            .wrapper {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                min-height: 100%;
                 padding: 20px;
-                border-radius: 5px
+                background: rgba(4, 40, 68, 0.85);
             }
 
-            .app-title {
-                text-align: center;
-                color: #777;
+            .login {
+                border-radius: 2px 2px 5px 5px;
+                padding: 10px 20px 20px 20px;
+                width: 90%;
+                max-width: 320px;
+                background: #ffffff;
+                position: relative;
+                padding-bottom: 80px;
+                box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
             }
-
-            .login-form {
-                text-align: center;
+            .login.loading button {
+                max-height: 100%;
+                padding-top: 50px;
             }
-            .control-group {
+            .login.loading button .spinner {
+                opacity: 1;
+                top: 40%;
+            }
+            .login.ok button {
+                background-color: #8bc34a;
+            }
+            .login.ok button .spinner {
+                border-radius: 0;
+                border-top-color: transparent;
+                border-right-color: transparent;
+                height: 20px;
+                animation: none;
+                transform: rotateZ(-45deg);
+            }
+            .login input {
+                display: block;
+                padding: 15px 10px;
                 margin-bottom: 10px;
+                width: 100%;
+                border: 1px solid #ddd;
+                transition: border-width 0.2s ease;
+                border-radius: 2px;
+                color: #ccc;
             }
-
-            input {
-                text-align: center;
-                background-color: #ECF0F1;
-                border: 2px solid transparent;
-                border-radius: 3px;
-                font-size: 16px;
-                font-weight: 200;
-                padding: 10px 0;
-                width: 250px;
-                transition: border .5s;
+            .login input + i.fa {
+                color: #fff;
+                font-size: 1em;
+                position: absolute;
+                margin-top: -47px;
+                opacity: 0;
+                left: 0;
+                transition: all 0.1s ease-in;
             }
-
-            input:focus {
-                border: 2px solid #3498DB;
-                box-shadow: none;
-            }
-
-            .btn {
-                border: 2px solid transparent;
-                background: #3498DB;
-                color: #ffffff;
-                font-size: 16px;
-                line-height: 25px;
-                padding: 10px 0;
-                text-decoration: none;
-                text-shadow: none;
-                border-radius: 3px;
-                box-shadow: none;
-                transition: 0.25s;
-                display: block;
-                width: 250px;
-                margin: 0 auto;
-            }
-
-            .btn:hover {
-                background-color: #2980B9;
-            }
-
-            .login-link {
-                font-size: 12px;
+            .login input:focus {
+                outline: none;
                 color: #444;
-                display: block;
-                margin-top: 12px;
+                border-color: #2196F3;
+                border-left-width: 35px;
             }
+            .login input:focus + i.fa {
+                opacity: 1;
+                left: 30px;
+                transition: all 0.25s ease-out;
+            }
+            .login a {
+                font-size: 0.8em;
+                color: #2196F3;
+                text-decoration: none;
+            }
+            .login .title {
+                color: #444;
+                font-size: 1.2em;
+                font-weight: bold;
+                margin: 10px 0 30px 0;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 20px;
+            }
+            .login button {
+                width: 100%;
+                height: 100%;
+                padding: 10px 10px;
+                background: #2196F3;
+                color: #fff;
+                display: block;
+                border: none;
+                margin-top: 20px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                max-height: 60px;
+                border: 0px solid rgba(0, 0, 0, 0.1);
+                border-radius: 0 0 2px 2px;
+                transform: rotateZ(0deg);
+                transition: all 0.1s ease-out;
+                border-bottom-width: 7px;
+            }
+            .login button .spinner {
+                display: block;
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                border: 4px solid #ffffff;
+                border-top-color: rgba(255, 255, 255, 0.3);
+                border-radius: 100%;
+                left: 50%;
+                top: 0;
+                opacity: 0;
+                margin-left: -20px;
+                margin-top: -20px;
+                animation: spinner 0.6s infinite linear;
+                transition: top 0.3s 0.3s ease, opacity 0.3s 0.3s ease, border-radius 0.3s ease;
+                box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+            }
+            .login:not(.loading) button:hover {
+                box-shadow: 0px 1px 3px #2196F3;
+            }
+            .login:not(.loading) button:focus {
+                border-bottom-width: 4px;
+            }
+
+            footer {
+                display: block;
+                padding-top: 50px;
+                text-align: center;
+                color: #ddd;
+                font-weight: normal;
+                text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+                font-size: 0.8em;
+            }
+            footer a, footer a:link {
+                color: #fff;
+                text-decoration: none;
+            }
+
         </style>
     </head>
     <body>
-    <div class="login">
-        <div class="login-screen">
-            <div class="app-title">
-                <h1>Login</h1>
-            </div>
-
-            <div class="login-form">
-                <div class="control-group">
-                    <input type="text" class="login-field" value="" placeholder="username" id="login-name">
-                    <label class="login-field-icon fui-user" for="login-name"></label>
-                </div>
-
-                <div class="control-group">
-                    <input type="password" class="login-field" value="" placeholder="password" id="login-pass">
-                    <label class="login-field-icon fui-lock" for="login-pass"></label>
-                </div>
-
-                <a class="btn btn-primary btn-large btn-block" href="#">login</a>
-                <a class="login-link" href="#">Lost your password?</a>
-            </div>
-        </div>
+    <div class="wrapper">
+        <form class="login">
+            <p class="title">Log in</p>
+            <input type="text" placeholder="Username" autofocus/>
+            <i class="fa fa-user"></i>
+            <input type="password" placeholder="Password" />
+            <i class="fa fa-key"></i>
+            <a href="#">Forgot your password?</a>
+            <button>
+                <i class="spinner"></i>
+                <span class="state">Log in</span>
+            </button>
+        </form>
+        <footer><a target="blank" href="http://boudra.me/">boudra.me</a></footer>
+        </p>
     </div>
     </body>
 </html>
