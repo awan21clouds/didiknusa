@@ -2,7 +2,6 @@
     <head>
         <title>DidikNusa.com</title>
         <link rel="shortcut icon" media="all" href="http://placehold.it/1100x500/f39c12/ffffff&amp;text=Comming+Soon"/>
-        <link media="all" type="text/css" rel="stylesheet" href="../adminLTE/bootstrap/css/custom-bootstrap.css"/>
         <link media="all" type="text/css" rel="stylesheet" href="../adminLTE/plugins/notify/animate.css"/>
         <link media="all" type="text/css" rel="stylesheet" href="../adminLTE/plugins/font-awesome-4.5.0/css/font-awesome.min.css"/>
         <link media="all" type="text/css" rel="stylesheet" href="../adminLTE/plugins/ionicons-master/css/ionicons.min.css"/>
