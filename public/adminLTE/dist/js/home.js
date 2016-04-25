@@ -23,7 +23,7 @@ function registration(){
         //console.log(getCurrentDateTime());
         ajaxPro('POST', getBaseURL()+'member', formData, 'html', false, false, false, false, success, error, null);
         function success(output) {
-            notify('info', 'Registrasi Berhasil!', 'Silahkan masuk', 'glyphicon glyphicon-warning-sign');
+            notify('info', 'Registrasi Berhasil!', 'Silahkan masuk', 'fa fa-exclamation-triangle');
             loginAjax(formData);
         }
         function error(jqXHR, textStatus, errorThrown) {

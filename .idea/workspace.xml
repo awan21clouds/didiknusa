@@ -73,8 +73,8 @@
       <file leaf-file-name="custom-bootstrap.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/adminLTE/bootstrap/css/custom-bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-229.04065">
-              <caret line="896" column="4" selection-start-line="896" selection-start-column="0" selection-end-line="896" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.6910569">
+              <caret line="811" column="1" selection-start-line="811" selection-start-column="0" selection-end-line="811" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -1207,16 +1207,16 @@
       <workItem from="1461288415005" duration="22608000" />
       <workItem from="1461357802690" duration="10587000" />
       <workItem from="1461482962822" duration="1377000" />
-      <workItem from="1461549392958" duration="14487000" />
+      <workItem from="1461549392958" duration="14728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93377000" />
+    <option name="totallyTimeSpent" value="93618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1679,8 +1679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/adminLTE/bootstrap/css/custom-bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-229.04065">
-          <caret line="896" column="4" selection-start-line="896" selection-start-column="0" selection-end-line="896" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.6910569">
+          <caret line="811" column="1" selection-start-line="811" selection-start-column="0" selection-end-line="811" selection-end-column="1" />
           <folding />
         </state>
       </provider>
