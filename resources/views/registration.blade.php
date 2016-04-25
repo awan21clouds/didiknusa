@@ -163,17 +163,17 @@
                 </div>
 
                 <div class="form__field">
-                    <label class="fa fa fa-envelope" for="login__password"><span class="hidden">Email</span></label>
+                    <label class="fa fa-envelope" for="login__password"><span class="hidden">Email</span></label>
                     <input type="text" class="form__input" placeholder="Masukkan alamat email anda" required>
                 </div>
 
                 <div class="form__field">
-                    <label class="fa fa fa-envelope" for="login__password"><span class="hidden">Password</span></label>
+                    <label class="fa fa-lock" for="login__password"><span class="hidden">Password</span></label>
                     <input type="password" class="form__input" placeholder="Masukkan password anda" required>
                 </div>
 
                 <div class="form__field">
-                    <label class="fa fa fa-envelope" for="login__password"><span class="hidden">Konfirmasi Password</span></label>
+                    <label class="fa fa-lock" for="login__password"><span class="hidden">Konfirmasi Password</span></label>
                     <input type="password" class="form__input" placeholder="Masukkan kembali password anda" required>
                 </div>
 
