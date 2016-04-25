@@ -113,9 +113,9 @@
                 {{--@endfor--}}
             {{--</div>--}}
 
-            @if(!Session::has('member'))
-                @include('layout.login')
-            @endif
+            {{--@if(!Session::has('member'))--}}
+                {{--@include('layout.login')--}}
+            {{--@endif--}}
 
             <h2 class="page-header text-center">Tentang Kami, Mari Berdonasi & Kontak</h2>
             <div class="row wow animated rubberBand">

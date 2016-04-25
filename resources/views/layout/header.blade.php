@@ -28,8 +28,10 @@
             <!-- Navbar Right Menu -->
             <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav" id="navbar-right">
-                    <li><a href="javascript:;" onclick="$('#register').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});" class="no-hover">Belum terdaftar? <span class="dashed-underline">Registrasi disini</span></a></li>
-                    <li><a href="javascript:;" onclick="$('#login').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});" class="no-hover"><span class="dashed-underline">Masuk</span></a></li>
+                    <li><a href="registration" class="no-hover">Belum terdaftar? <span class="dashed-underline">Registrasi disini</span></a></li>
+                    <li><a href="login" class="no-hover"><span class="dashed-underline">Masuk</span></a></li>
+                    {{--<li><a href="javascript:;" onclick="$('#register').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});" class="no-hover">Belum terdaftar? <span class="dashed-underline">Registrasi disini</span></a></li>--}}
+                    {{--<li><a href="javascript:;" onclick="$('#login').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});" class="no-hover"><span class="dashed-underline">Masuk</span></a></li>--}}
                 </ul>
             </div><!-- /.navbar-custom-menu -->
         </div><!-- /.container-fluid -->

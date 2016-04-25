@@ -154,9 +154,9 @@
                     </div>
                 </div>
             </div>
-            @if(!Session::has('member'))
-                @include('layout.login')
-            @endif
+            {{--@if(!Session::has('member'))--}}
+                {{--@include('layout.login')--}}
+            {{--@endif--}}
         </section><!-- /.content -->
     </div><!-- /.container -->
     <script src="../adminLTE/plugins/jQuery/jQuery-2.1.4.min.js"></script>
