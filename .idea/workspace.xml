@@ -84,8 +84,8 @@
       <file leaf-file-name="registration.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/registration.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6834171">
-              <caret line="166" column="20" selection-start-line="166" selection-start-column="20" selection-end-line="166" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.72613066">
+              <caret line="176" column="93" selection-start-line="176" selection-start-column="93" selection-end-line="176" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -1047,16 +1047,16 @@
       <workItem from="1461288415005" duration="22608000" />
       <workItem from="1461357802690" duration="10587000" />
       <workItem from="1461482962822" duration="1377000" />
-      <workItem from="1461549392958" duration="3040000" />
+      <workItem from="1461549392958" duration="3279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81930000" />
+    <option name="totallyTimeSpent" value="82169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1498,8 +1498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/registration.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6834171">
-          <caret line="166" column="20" selection-start-line="166" selection-start-column="20" selection-end-line="166" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.72613066">
+          <caret line="176" column="93" selection-start-line="176" selection-start-column="93" selection-end-line="176" selection-end-column="93" />
           <folding />
         </state>
       </provider>

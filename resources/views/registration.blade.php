@@ -158,8 +158,8 @@
                 </div>
 
                 <div class="form__field">
-                    <label class="fa fa-phone" for="login__password"><span class="hidden">Nomor Telepon/Ponsel</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan nomor telepon atau ponsel anda" required>
+                    <label class="fa fa-phone" for="login__password"><span class="hidden">Nomor Telepon</span></label>
+                    <input type="text" class="form__input" placeholder="Masukkan nomor telepon anda" required>
                 </div>
 
                 <div class="form__field">
