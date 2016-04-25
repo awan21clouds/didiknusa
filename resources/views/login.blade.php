@@ -14,7 +14,7 @@
             <h3 class="text--center">Silahkan isi kolom pada form berikut</h3>
 
             <form action="" method="post" class="form form--login">
-                <input type="hide" name="_token" value="{{csrf_token()}}"/>
+                <input type="hide" name="_token" value="{{csrf_token()}}" style="display: none;"/>
                 <div class="form__field">
                     <label class="fa fa-envelope" for="login__password"><span class="hidden">Email</span></label>
                     <input type="email" class="form__input" placeholder="Masukkan alamat email anda" name="email" required title="Silahkan isi kolom ini dengan  alamat email yang valid" />
