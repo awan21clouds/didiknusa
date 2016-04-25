@@ -92,7 +92,7 @@
                 border:none;
             }
             .form--login button[type="submit"]:focus, .form--login button[type="submit"]:hover {
-                background-color: rgba(51, 91, 11, 1);
+                background-color: rgba(0, 5, 112, 0.63);
                 border:none;
             }
             .form__field {
