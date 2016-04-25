@@ -150,7 +150,7 @@
 
         <div class="grid__container">
             <h1 class="text--center">DidikBangsa.com</h1>
-            <h1 class="text--center">Silahkan isi kolom pada form berikut</h1>
+            <h3 class="text--center">Silahkan isi kolom pada form berikut</h3>
 
             <form action="" method="post" class="form form--login">
 
