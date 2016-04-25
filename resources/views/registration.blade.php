@@ -34,12 +34,12 @@
 
                 <div class="form__field">
                     <label class="fa fa-lock" for="login__password"><span class="hidden">Password</span></label>
-                    <input type="password" class="form__input" placeholder="Masukkan password anda" name="password" id="password1" required/>
+                    <input type="password" class="form__input" placeholder="Masukkan password anda" name="password" id="password1" required title="Silahkan isi kolom ini dengan password yang valid"/>
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-lock" for="login__password"><span class="hidden">Konfirmasi Password</span></label>
-                    <input type="password" class="form__input" placeholder="Masukkan kembali password anda" name="confirm_password" id="password2" required>
+                    <input type="password" class="form__input" placeholder="Masukkan kembali password anda" name="confirm_password" id="password2" required title="Silahkan isi kolom ini dengan password yang valid">
                 </div>
 
                 <div class="form__field">

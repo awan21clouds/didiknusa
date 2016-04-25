@@ -17,12 +17,12 @@
 
                 <div class="form__field">
                     <label class="fa fa-envelope" for="login__password"><span class="hidden">Email</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan alamat email anda" name="email"/>
+                    <input type="email" class="form__input" placeholder="Masukkan alamat email anda" name="email" required title="Silahkan isi kolom ini dengan  alamat email yang valid" />
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-lock" for="login__password"><span class="hidden">Password</span></label>
-                    <input type="password" class="form__input" placeholder="Masukkan password anda" name="password"/>
+                    <input type="password" class="form__input" placeholder="Masukkan password anda" name="password" required title="Silahkan isi kolom ini dengan password yang valid"/>
                 </div>
 
                 <div class="form__field">
