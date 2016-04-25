@@ -24,22 +24,22 @@
 
                 <div class="form__field">
                     <label class="fa fa-phone" for="login__password"><span class="hidden">Nomor Telepon</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan nomor telepon anda" name="phone"/>
+                    <input type="text" class="form__input" placeholder="Masukkan nomor telepon anda" name="phone" required pattern="[0-9]"/>
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-envelope" for="login__password"><span class="hidden">Email</span></label>
-                    <input type="text" class="form__input" placeholder="Masukkan alamat email anda" name="email"/>
+                    <input type="text" class="form__input" placeholder="Masukkan alamat email anda" name="email" required/>
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-lock" for="login__password"><span class="hidden">Password</span></label>
-                    <input type="password" class="form__input" placeholder="Masukkan password anda" name="password"/>
+                    <input type="password" class="form__input" placeholder="Masukkan password anda" name="password" required/>
                 </div>
 
                 <div class="form__field">
                     <label class="fa fa-lock" for="login__password"><span class="hidden">Konfirmasi Password</span></label>
-                    <input type="password" class="form__input" placeholder="Masukkan kembali password anda" name="confirm_password">
+                    <input type="password" class="form__input" placeholder="Masukkan kembali password anda" name="confirm_password" required>
                 </div>
 
                 <div class="form__field">
