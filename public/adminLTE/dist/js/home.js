@@ -24,8 +24,6 @@ function registration(){
         ajaxPro('POST', getBaseURL()+'member', formData, 'html', false, false, false, false, success, error, null);
         function success(output) {
             notify('info', 'Registrasi Berhasil!', 'Silahkan masuk', 'glyphicon glyphicon-warning-sign');
-            $("#form-registration").bootstrapValidator('resetForm', true);
-            $("#form-registration")[0].reset();
         }
         function error(jqXHR, textStatus, errorThrown) {
             alert('An error occurred... Look at the console (F12 or Ctrl+Shift+I, Console tab) for more information!');
