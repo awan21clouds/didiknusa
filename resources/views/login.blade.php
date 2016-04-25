@@ -3,183 +3,175 @@
         <title>DidikNusa.com</title>
         @include('layout.style')
         <style>
-            body {
-                font-family: "Open Sans", sans-serif;
-                height: 100vh;
-                background: url("http://i.imgur.com/HgflTDf.jpg") 50% fixed;
-                background-size: cover;
+            @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+            @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+            [class*="fontawesome-"]:before {
+                font-family: 'FontAwesome', sans-serif;
             }
 
-            @keyframes spinner {
-                0% {
-                    transform: rotateZ(0deg);
-                }
-                100% {
-                    transform: rotateZ(359deg);
-                }
-            }
             * {
                 box-sizing: border-box;
             }
 
-            .wrapper {
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-                justify-content: center;
-                width: 100%;
-                min-height: 100%;
-                padding: 20px;
-                background: rgba(4, 40, 68, 0.85);
-            }
-
-            .login {
-                border-radius: 2px 2px 5px 5px;
-                padding: 10px 20px 20px 20px;
-                width: 90%;
-                max-width: 320px;
-                background: #ffffff;
-                position: relative;
-                padding-bottom: 80px;
-                box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
-            }
-            .login.loading button {
-                max-height: 100%;
-                padding-top: 50px;
-            }
-            .login.loading button .spinner {
-                opacity: 1;
-                top: 40%;
-            }
-            .login.ok button {
-                background-color: #8bc34a;
-            }
-            .login.ok button .spinner {
-                border-radius: 0;
-                border-top-color: transparent;
-                border-right-color: transparent;
-                height: 20px;
-                animation: none;
-                transform: rotateZ(-45deg);
-            }
-            .login input {
-                display: block;
-                padding: 15px 10px;
-                margin-bottom: 10px;
-                width: 100%;
-                border: 1px solid #ddd;
-                transition: border-width 0.2s ease;
-                border-radius: 2px;
-                color: #ccc;
-            }
-            .login input + i.fa {
-                color: #fff;
-                font-size: 1em;
-                position: absolute;
-                margin-top: -47px;
-                opacity: 0;
-                left: 0;
-                transition: all 0.1s ease-in;
-            }
-            .login input:focus {
-                outline: none;
-                color: #444;
-                border-color: #2196F3;
-                border-left-width: 35px;
-            }
-            .login input:focus + i.fa {
-                opacity: 1;
-                left: 30px;
-                transition: all 0.25s ease-out;
-            }
-            .login a {
-                font-size: 0.8em;
-                color: #2196F3;
-                text-decoration: none;
-            }
-            .login .title {
-                color: #444;
-                font-size: 1.2em;
-                font-weight: bold;
-                margin: 10px 0 30px 0;
-                border-bottom: 1px solid #eee;
-                padding-bottom: 20px;
-            }
-            .login button {
-                width: 100%;
+            html {
                 height: 100%;
-                padding: 10px 10px;
-                background: #2196F3;
-                color: #fff;
-                display: block;
-                border: none;
-                margin-top: 20px;
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                max-height: 60px;
-                border: 0px solid rgba(0, 0, 0, 0.1);
-                border-radius: 0 0 2px 2px;
-                transform: rotateZ(0deg);
-                transition: all 0.1s ease-out;
-                border-bottom-width: 7px;
-            }
-            .login button .spinner {
-                display: block;
-                width: 40px;
-                height: 40px;
-                position: absolute;
-                border: 4px solid #ffffff;
-                border-top-color: rgba(255, 255, 255, 0.3);
-                border-radius: 100%;
-                left: 50%;
-                top: 0;
-                opacity: 0;
-                margin-left: -20px;
-                margin-top: -20px;
-                animation: spinner 0.6s infinite linear;
-                transition: top 0.3s 0.3s ease, opacity 0.3s 0.3s ease, border-radius 0.3s ease;
-                box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
-            }
-            .login:not(.loading) button:hover {
-                box-shadow: 0px 1px 3px #2196F3;
-            }
-            .login:not(.loading) button:focus {
-                border-bottom-width: 4px;
             }
 
-            footer {
-                display: block;
-                padding-top: 50px;
-                text-align: center;
-                color: #ddd;
-                font-weight: normal;
-                text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
-                font-size: 0.8em;
+            body {
+                background-color: #2c3338;
+                color: #606468;
+                font: 400 0.875rem/1.5 "Open Sans", sans-serif;
+                margin: 0;
+                min-height: 100%;
             }
-            footer a, footer a:link {
-                color: #fff;
+
+            a {
+                color: #eee;
+                outline: 0;
                 text-decoration: none;
+            }
+            a:focus, a:hover {
+                text-decoration: underline;
+            }
+
+            input {
+                border: 0;
+                color: inherit;
+                font: inherit;
+                margin: 0;
+                outline: 0;
+                padding: 0;
+                -webkit-transition: background-color .3s;
+                transition: background-color .3s;
+            }
+
+            .site__container {
+                -webkit-box-flex: 1;
+                -webkit-flex: 1;
+                -ms-flex: 1;
+                flex: 1;
+                padding: 3rem 0;
+            }
+
+            .form input[type="password"], .form input[type="text"], .form input[type="submit"] {
+                width: 100%;
+            }
+            .form--login {
+                color: #606468;
+            }
+            .form--login label,
+            .form--login input[type="text"],
+            .form--login input[type="password"],
+            .form--login input[type="submit"] {
+                border-radius: 0.25rem;
+                padding: 1rem;
+            }
+            .form--login label {
+                background-color: #363b41;
+                border-bottom-right-radius: 0;
+                border-top-right-radius: 0;
+                padding-left: 1.25rem;
+                padding-right: 1.25rem;
+            }
+            .form--login input[type="text"], .form--login input[type="password"] {
+                background-color: #3b4148;
+                border-bottom-left-radius: 0;
+                border-top-left-radius: 0;
+            }
+            .form--login input[type="text"]:focus, .form--login input[type="text"]:hover, .form--login input[type="password"]:focus, .form--login input[type="password"]:hover {
+                background-color: #434A52;
+            }
+            .form--login input[type="submit"] {
+                background-color: #ea4c88;
+                color: #eee;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            .form--login input[type="submit"]:focus, .form--login input[type="submit"]:hover {
+                background-color: #d44179;
+            }
+            .form__field {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                margin-bottom: 1rem;
+            }
+            .form__input {
+                -webkit-box-flex: 1;
+                -webkit-flex: 1;
+                -ms-flex: 1;
+                flex: 1;
+            }
+
+            .align {
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                -ms-flex-align: center;
+                align-items: center;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: row;
+                -ms-flex-direction: row;
+                flex-direction: row;
+            }
+
+            .hidden {
+                border: 0;
+                clip: rect(0 0 0 0);
+                height: 1px;
+                margin: -1px;
+                overflow: hidden;
+                padding: 0;
+                position: absolute;
+                width: 1px;
+            }
+
+            .text--center {
+                text-align: center;
+            }
+
+            .grid__container {
+                margin: 0 auto;
+                max-width: 20rem;
+                width: 90%;
             }
 
         </style>
     </head>
-    <body>
-    <div class="wrapper">
-        <form class="login">
-            <p class="title">Log in</p>
-            <input type="text" placeholder="Username" autofocus/>
-            <i class="fa fa-user"></i>
-            <input type="password" placeholder="Password" />
-            <i class="fa fa-key"></i>
-            <a href="#">Forgot your password?</a>
-            <button>
-                <i class="spinner"></i>
-                <span class="state">Log in</span>
-            </button>
-        </form>
-        <footer><a target="blank" href="http://boudra.me/">boudra.me</a></footer>
-        </p>
+    <body class="align">
+
+    <div class="site__container">
+
+        <div class="grid__container">
+
+            <form action="" method="post" class="form form--login">
+
+                <div class="form__field">
+                    <label class="fontawesome-user" for="login__username"><span class="hidden">Username</span></label>
+                    <input id="login__username" type="text" class="form__input" placeholder="Username" required>
+                </div>
+
+                <div class="form__field">
+                    <label class="fontawesome-lock" for="login__password"><span class="hidden">Password</span></label>
+                    <input id="login__password" type="password" class="form__input" placeholder="Password" required>
+                </div>
+
+                <div class="form__field">
+                    <input type="submit" value="Sign In">
+                </div>
+
+            </form>
+
+            <p class="text--center">Not a member? <a href="#">Sign up now</a> <span class="fontawesome-arrow-right"></span></p>
+
+        </div>
+
     </div>
+
     </body>
 </html>
