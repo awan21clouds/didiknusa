@@ -26,4 +26,12 @@ class Member extends Model
             ->first();
         return $member;
     }
+
+    public function getMemberByEmail($email){
+        $member = DB::table('member')
+            ->select('*')
+            ->where('email', '=', $email)
+            ->first();
+        return $member;
+    }
 }

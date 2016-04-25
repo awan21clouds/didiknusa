@@ -160,13 +160,20 @@ class MemberController extends Controller
         }
 
         $email = Input::get('email');
+
+
+
         Member::where('email', $email)
             ->update(['password' => md5($randomString)]);
 
         Mail::send('vendor.mail.hello', ['password' => $randomString], function ($m) {
-            $m->from('telucollaborativelearning@gmail.com', 'Your Application');
+            $email = Input::get('email');
+            $member = new Member();
+            $logged = $member->getMemberByEmail($email);
 
-            $m->to('rizqyfahmi@gmail.com', 'rizqyfahmi')->subject('Your Reminder!');
+            $m->from('telucollaborativelearning@gmail.com', 'DidikNusa.com');
+
+            $m->to($email, $logged->name)->subject('Password Baru');
         });
     }
 
