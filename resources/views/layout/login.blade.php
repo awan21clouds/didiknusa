@@ -47,6 +47,7 @@
                     <h3 class="box-title">Masuk</h3>
                 </div>
                 <form role="form" id="form-login">
+                    <input type="hide" name="_token" value="{{csrf_token()}}" class="form-control" placeholder="Ketik nama">
                     <div class="form-group hide">
                         <label>Token</label>
                         <input type="text" name="_token" value="{{csrf_token()}}" class="form-control" placeholder="Ketik nama">

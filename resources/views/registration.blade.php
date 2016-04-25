@@ -16,7 +16,7 @@
             <h3 class="text--center">Silahkan isi kolom pada form berikut</h3>
 
             <form class="form form--login" id="form-registration">
-
+                <input type="hide" name="_token" value="{{csrf_token()}}"/>
                 <div class="form__field">
                     <label class="fa fa-user" for="login__username"><span class="hidden">Nama</span></label>
                     <input type="text" class="form__input" placeholder="Masukkan nama anda" name="name" required title="Silahkan isi kolom ini dengan nama yang valid"/>
