@@ -158,7 +158,7 @@
                 </div>
 
                 <div class="form__field">
-                    <input type="submit" value="Daftar">
+                    <input type="submit" value="Kirim password baru ke email">
                 </div>
 
             </form>
